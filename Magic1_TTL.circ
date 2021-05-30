@@ -469,7 +469,7 @@ end TCL_Generic;
       <a name="inputs" val="3"/>
     </comp>
     <comp lib="5" loc="(1330,520)" name="Hex Digit Display">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@4129c0de"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@1d8b66fc"/>
     </comp>
     <wire from="(1000,1950)" to="(1000,2000)"/>
     <wire from="(1000,2000)" to="(1010,2000)"/>
@@ -1675,5 +1675,128 @@ end TCL_Generic;
     <wire from="(550,80)" to="(600,80)"/>
     <wire from="(600,80)" to="(600,190)"/>
     <wire from="(600,80)" to="(650,80)"/>
+  </circuit>
+  <circuit name="RAM62256">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="RAM62256"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="circuitvhdlpath" val=""/>
+    <a name="clabel" val=""/>
+    <a name="clabelfont" val="SansSerif bold 16"/>
+    <a name="clabelup" val="east"/>
+    <comp lib="0" loc="(170,150)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="nOE"/>
+    </comp>
+    <comp lib="0" loc="(170,190)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="nCS"/>
+    </comp>
+    <comp lib="0" loc="(170,90)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="nWE"/>
+    </comp>
+    <comp lib="0" loc="(540,120)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="A"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="15"/>
+    </comp>
+    <comp lib="0" loc="(550,190)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="D"/>
+      <a name="output" val="true"/>
+      <a name="radix" val="16"/>
+      <a name="tristate" val="true"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="1" loc="(280,150)" name="NOT Gate"/>
+    <comp lib="1" loc="(280,190)" name="NOT Gate"/>
+    <comp lib="1" loc="(280,90)" name="NOT Gate"/>
+    <comp lib="1" loc="(400,110)" name="AND Gate"/>
+    <comp lib="1" loc="(400,170)" name="AND Gate"/>
+    <comp lib="4" loc="(610,110)" name="RAM">
+      <a name="addrWidth" val="15"/>
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="U2"/>
+      <a name="labelvisible" val="true"/>
+      <a name="trigger" val="low"/>
+    </comp>
+    <wire from="(170,150)" to="(250,150)"/>
+    <wire from="(170,190)" to="(250,190)"/>
+    <wire from="(170,90)" to="(250,90)"/>
+    <wire from="(280,150)" to="(350,150)"/>
+    <wire from="(280,190)" to="(310,190)"/>
+    <wire from="(280,90)" to="(350,90)"/>
+    <wire from="(310,130)" to="(310,190)"/>
+    <wire from="(310,130)" to="(350,130)"/>
+    <wire from="(310,190)" to="(350,190)"/>
+    <wire from="(400,110)" to="(430,110)"/>
+    <wire from="(400,170)" to="(610,170)"/>
+    <wire from="(430,110)" to="(430,160)"/>
+    <wire from="(430,160)" to="(610,160)"/>
+    <wire from="(540,120)" to="(610,120)"/>
+    <wire from="(550,190)" to="(570,190)"/>
+    <wire from="(570,190)" to="(570,380)"/>
+    <wire from="(570,190)" to="(610,190)"/>
+    <wire from="(570,380)" to="(900,380)"/>
+    <wire from="(850,190)" to="(900,190)"/>
+    <wire from="(900,190)" to="(900,380)"/>
+  </circuit>
+  <circuit name="ROM27256">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="ROM27256"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="circuitvhdlpath" val=""/>
+    <a name="clabel" val=""/>
+    <a name="clabelfont" val="SansSerif bold 16"/>
+    <a name="clabelup" val="east"/>
+    <comp lib="0" loc="(170,100)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="A"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="15"/>
+    </comp>
+    <comp lib="0" loc="(220,370)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="nCS"/>
+    </comp>
+    <comp lib="0" loc="(220,410)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="nOE"/>
+    </comp>
+    <comp lib="0" loc="(630,150)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="D"/>
+      <a name="output" val="true"/>
+      <a name="radix" val="16"/>
+      <a name="tristate" val="true"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="1" loc="(370,370)" name="NOT Gate"/>
+    <comp lib="1" loc="(370,410)" name="NOT Gate"/>
+    <comp lib="1" loc="(480,390)" name="AND Gate"/>
+    <comp lib="1" loc="(560,150)" name="Controlled Buffer">
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="4" loc="(250,90)" name="ROM">
+      <a name="addrWidth" val="15"/>
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="contents">addr/data: 15 8
+0
+</a>
+      <a name="label" val="BIOS"/>
+      <a name="labelvisible" val="true"/>
+    </comp>
+    <wire from="(170,100)" to="(250,100)"/>
+    <wire from="(220,370)" to="(340,370)"/>
+    <wire from="(220,410)" to="(340,410)"/>
+    <wire from="(370,370)" to="(430,370)"/>
+    <wire from="(370,410)" to="(430,410)"/>
+    <wire from="(480,390)" to="(550,390)"/>
+    <wire from="(490,150)" to="(540,150)"/>
+    <wire from="(550,160)" to="(550,390)"/>
+    <wire from="(560,150)" to="(630,150)"/>
   </circuit>
 </project>
