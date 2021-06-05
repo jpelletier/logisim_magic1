@@ -6,14 +6,15 @@
     <tool name="Splitter">
       <a name="appear" val="center"/>
       <a name="facing" val="south"/>
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="4"/>
     </tool>
     <tool name="Pin">
       <a name="facing" val="north"/>
     </tool>
     <tool name="Probe">
       <a name="facing" val="north"/>
+    </tool>
+    <tool name="Tunnel">
+      <a name="facing" val="east"/>
     </tool>
     <tool name="Pull Resistor">
       <a name="facing" val="north"/>
@@ -130,7 +131,7 @@ end TCL_Generic;
     </tool>
   </lib>
   <lib desc="file#logi7400ic.circ" name="12"/>
-  <main name="main"/>
+  <main name="Field_Decode"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
     <a name="simlimit" val="1000"/>
@@ -175,9 +176,9 @@ end TCL_Generic;
       <a name="appearance" val="logisim_evolution"/>
     </tool>
   </toolbar>
-  <circuit name="main">
+  <circuit name="Field_Decode">
     <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="main"/>
+    <a name="circuit" val="Field_Decode"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="circuitvhdlpath" val=""/>
     <a name="clabel" val=""/>
@@ -671,6 +672,7 @@ end TCL_Generic;
     </comp>
     <comp lib="1" loc="(950,360)" name="NOR Gate">
       <a name="facing" val="west"/>
+      <a name="label" val="U43A"/>
     </comp>
     <comp lib="1" loc="(980,1280)" name="NOT Gate"/>
     <comp lib="1" loc="(980,1300)" name="NOT Gate"/>

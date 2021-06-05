@@ -144,7 +144,7 @@ end TCL_Generic;
   </lib>
   <lib desc="file#Magic1_TTL.circ" name="12"/>
   <lib desc="file#logi7400ic.circ" name="13"/>
-  <main name="main"/>
+  <main name="Front_Panel"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
     <a name="simlimit" val="1000"/>
@@ -189,9 +189,9 @@ end TCL_Generic;
       <a name="appearance" val="logisim_evolution"/>
     </tool>
   </toolbar>
-  <circuit name="main">
+  <circuit name="Front_Panel">
     <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="main"/>
+    <a name="circuit" val="Front_Panel"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="circuitvhdlpath" val=""/>
     <a name="clabel" val=""/>
@@ -765,7 +765,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(1020,890)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@6b5b1108"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@57fe951b"/>
       <a name="number" val="3"/>
     </comp>
     <comp lib="5" loc="(1040,1000)" name="LED">
@@ -879,7 +879,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(1260,890)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@288906dc"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@96a4a31"/>
     </comp>
     <comp lib="5" loc="(1280,1000)" name="LED">
       <a name="facing" val="north"/>
@@ -892,7 +892,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(1280,490)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@170cbc53"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@7a6fd451"/>
       <a name="number" val="4"/>
     </comp>
     <comp lib="5" loc="(1280,800)" name="LED">
@@ -1124,7 +1124,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(720,1190)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@31cc6da7"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@65d9999"/>
       <a name="number" val="22"/>
     </comp>
     <comp lib="5" loc="(720,530)" name="LED">
@@ -1256,7 +1256,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(870,230)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@511332a4"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@25a89204"/>
       <a name="number" val="3"/>
     </comp>
     <comp lib="5" loc="(880,1000)" name="LED">

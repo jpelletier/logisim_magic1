@@ -13,6 +13,9 @@
     <tool name="Probe">
       <a name="facing" val="north"/>
     </tool>
+    <tool name="Tunnel">
+      <a name="facing" val="east"/>
+    </tool>
     <tool name="Pull Resistor">
       <a name="facing" val="north"/>
     </tool>
@@ -140,7 +143,7 @@ end TCL_Generic;
     </tool>
   </lib>
   <lib desc="file#Magic1_TTL.circ" name="12"/>
-  <main name="main"/>
+  <main name="RAM_ROM"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
     <a name="simlimit" val="1000"/>
@@ -185,9 +188,9 @@ end TCL_Generic;
       <a name="appearance" val="logisim_evolution"/>
     </tool>
   </toolbar>
-  <circuit name="main">
+  <circuit name="RAM_ROM">
     <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="main"/>
+    <a name="circuit" val="RAM_ROM"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="circuitvhdlpath" val=""/>
     <a name="clabel" val=""/>

@@ -13,6 +13,9 @@
     <tool name="Probe">
       <a name="facing" val="north"/>
     </tool>
+    <tool name="Tunnel">
+      <a name="facing" val="east"/>
+    </tool>
     <tool name="Pull Resistor">
       <a name="facing" val="north"/>
     </tool>
@@ -132,7 +135,7 @@ end TCL_Generic;
     </tool>
   </lib>
   <lib desc="file#/home/public/electronique/Logisim/libs/logi7400ic.circ" name="12"/>
-  <main name="main"/>
+  <main name="MSW"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
     <a name="simlimit" val="1000"/>
@@ -177,9 +180,9 @@ end TCL_Generic;
       <a name="appearance" val="logisim_evolution"/>
     </tool>
   </toolbar>
-  <circuit name="main">
+  <circuit name="MSW">
     <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="main"/>
+    <a name="circuit" val="MSW"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="circuitvhdlpath" val=""/>
     <a name="clabel" val=""/>

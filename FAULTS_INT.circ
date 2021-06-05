@@ -144,7 +144,7 @@ end TCL_Generic;
   </lib>
   <lib desc="file#/home/public/electronique/Logisim/libs/logi7400ic.circ" name="12"/>
   <lib desc="file#Magic1_TTL.circ" name="13"/>
-  <main name="main"/>
+  <main name="FAULTS_INT"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
     <a name="simlimit" val="1000"/>
@@ -189,9 +189,9 @@ end TCL_Generic;
       <a name="appearance" val="logisim_evolution"/>
     </tool>
   </toolbar>
-  <circuit name="main">
+  <circuit name="FAULTS_INT">
     <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="main"/>
+    <a name="circuit" val="FAULTS_INT"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="circuitvhdlpath" val=""/>
     <a name="clabel" val=""/>

@@ -128,7 +128,7 @@ end TCL_Generic;
     </tool>
   </lib>
   <lib desc="file#logi7400ic.circ" name="12"/>
-  <main name="main"/>
+  <main name="CLOCKS"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
     <a name="simlimit" val="1000"/>
@@ -173,9 +173,9 @@ end TCL_Generic;
       <a name="appearance" val="logisim_evolution"/>
     </tool>
   </toolbar>
-  <circuit name="main">
+  <circuit name="CLOCKS">
     <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="main"/>
+    <a name="circuit" val="CLOCKS"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="circuitvhdlpath" val=""/>
     <a name="clabel" val=""/>

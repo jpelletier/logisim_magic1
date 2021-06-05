@@ -5,9 +5,7 @@
   <lib desc="#Wiring" name="0">
     <tool name="Splitter">
       <a name="appear" val="center"/>
-      <a name="facing" val="west"/>
-      <a name="fanout" val="11"/>
-      <a name="incoming" val="11"/>
+      <a name="facing" val="south"/>
     </tool>
     <tool name="Pin">
       <a name="facing" val="north"/>
@@ -34,10 +32,10 @@
       <a name="inputs" val="4"/>
     </tool>
     <tool name="NAND Gate">
-      <a name="inputs" val="3"/>
+      <a name="inputs" val="5"/>
     </tool>
     <tool name="NOR Gate">
-      <a name="inputs" val="3"/>
+      <a name="inputs" val="4"/>
     </tool>
     <tool name="Controlled Buffer">
       <a name="width" val="8"/>
@@ -81,9 +79,7 @@
       <a name="appearance" val="logisim_evolution"/>
     </tool>
     <tool name="RAM">
-      <a name="addrWidth" val="14"/>
       <a name="appearance" val="logisim_evolution"/>
-      <a name="dataWidth" val="16"/>
     </tool>
     <tool name="ROM">
       <a name="appearance" val="logisim_evolution"/>
@@ -146,9 +142,9 @@ end TCL_Generic;
       <a name="SocBusSelection" val=""/>
     </tool>
   </lib>
-  <lib desc="file#/home/public/platforms/Magic-1/Logisim/Magic1_TTL.circ" name="12"/>
+  <lib desc="file#Magic1_TTL.circ" name="12"/>
   <lib desc="file#logi7400ic.circ" name="13"/>
-  <main name="main"/>
+  <main name="PAGE_TABLE"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
     <a name="simlimit" val="1000"/>
@@ -193,9 +189,9 @@ end TCL_Generic;
       <a name="appearance" val="logisim_evolution"/>
     </tool>
   </toolbar>
-  <circuit name="main">
+  <circuit name="PAGE_TABLE">
     <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="main"/>
+    <a name="circuit" val="PAGE_TABLE"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="circuitvhdlpath" val=""/>
     <a name="clabel" val=""/>
