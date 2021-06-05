@@ -204,6 +204,12 @@ end TCL_Generic;
       <a name="bit1" val="0"/>
       <a name="facing" val="west"/>
     </comp>
+    <comp lib="0" loc="(1090,990)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="nNEXT0"/>
+      <a name="output" val="true"/>
+    </comp>
     <comp lib="0" loc="(1450,180)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="CLK_M"/>
@@ -705,6 +711,8 @@ end TCL_Generic;
     <wire from="(1000,670)" to="(1030,670)"/>
     <wire from="(1020,90)" to="(1060,90)"/>
     <wire from="(1030,680)" to="(1030,850)"/>
+    <wire from="(1030,850)" to="(1030,990)"/>
+    <wire from="(1030,990)" to="(1090,990)"/>
     <wire from="(1050,530)" to="(1050,660)"/>
     <wire from="(1300,140)" to="(1470,140)"/>
     <wire from="(1450,180)" to="(1470,180)"/>
