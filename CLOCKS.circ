@@ -234,6 +234,8 @@ end TCL_Generic;
     <comp lib="0" loc="(440,300)" name="Ground"/>
     <comp lib="0" loc="(490,140)" name="Splitter">
       <a name="appear" val="center"/>
+      <a name="bit0" val="1"/>
+      <a name="bit1" val="0"/>
       <a name="facing" val="south"/>
     </comp>
     <comp lib="0" loc="(490,290)" name="Ground"/>
