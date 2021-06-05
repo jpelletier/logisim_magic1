@@ -436,7 +436,7 @@ end TCL_Generic;
     <comp lib="0" loc="(700,680)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="n_RW"/>
+      <a name="label" val="nRW"/>
       <a name="output" val="true"/>
     </comp>
     <comp lib="1" loc="(1150,140)" name="Buffer"/>
