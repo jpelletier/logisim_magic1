@@ -9,4 +9,4 @@ https://github.com/logisim-evolution/logisim-evolution
 It needs the TTL library (logi7400ic.circ) here:  
 https://github.com/r0the/logi7400
 
-Currently in progress, should be done in a few weeks maybe.
+Completed, tests in progress.
