@@ -251,6 +251,7 @@ end TCL_Generic;
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="xMSWP"/>
+      <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(1070,830)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -484,6 +485,12 @@ end TCL_Generic;
     <comp lib="0" loc="(460,840)" name="Tunnel">
       <a name="label" val="xCODE_PTB"/>
     </comp>
+    <comp lib="0" loc="(470,880)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="xCODE_PTB"/>
+      <a name="output" val="true"/>
+    </comp>
     <comp lib="0" loc="(490,210)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="xCODE_PTB"/>
@@ -549,11 +556,13 @@ end TCL_Generic;
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="xMSWM"/>
+      <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(880,660)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="xUSER_PTB"/>
+      <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(890,580)" name="Tunnel">
       <a name="label" val="xMSWM"/>
@@ -931,7 +940,7 @@ end TCL_Generic;
     <wire from="(390,810)" to="(410,810)"/>
     <wire from="(390,820)" to="(420,820)"/>
     <wire from="(390,830)" to="(430,830)"/>
-    <wire from="(390,840)" to="(460,840)"/>
+    <wire from="(390,840)" to="(450,840)"/>
     <wire from="(390,850)" to="(430,850)"/>
     <wire from="(390,860)" to="(430,860)"/>
     <wire from="(390,870)" to="(430,870)"/>
@@ -970,6 +979,9 @@ end TCL_Generic;
     <wire from="(440,1520)" to="(1580,1520)"/>
     <wire from="(450,1190)" to="(450,1210)"/>
     <wire from="(450,1190)" to="(590,1190)"/>
+    <wire from="(450,840)" to="(450,880)"/>
+    <wire from="(450,840)" to="(460,840)"/>
+    <wire from="(450,880)" to="(470,880)"/>
     <wire from="(460,1240)" to="(490,1240)"/>
     <wire from="(470,140)" to="(490,140)"/>
     <wire from="(470,150)" to="(500,150)"/>
