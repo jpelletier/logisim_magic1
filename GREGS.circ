@@ -177,13 +177,79 @@ end TCL_Generic;
     </tool>
   </toolbar>
   <circuit name="GREGS">
-    <a name="appearance" val="logisim_evolution"/>
+    <a name="appearance" val="custom"/>
     <a name="circuit" val="GREGS"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="circuitvhdlpath" val=""/>
     <a name="clabel" val=""/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="clabelup" val="east"/>
+    <appear>
+      <circ-anchor facing="east" height="6" width="6" x="267" y="57"/>
+      <circ-port height="10" pin="780,110" width="10" x="265" y="55"/>
+      <circ-port height="8" pin="110,110" width="8" x="46" y="56"/>
+      <circ-port height="8" pin="370,1040" width="8" x="46" y="196"/>
+      <circ-port height="8" pin="370,1120" width="8" x="46" y="296"/>
+      <circ-port height="8" pin="370,1220" width="8" x="46" y="116"/>
+      <circ-port height="8" pin="370,1290" width="8" x="46" y="336"/>
+      <circ-port height="8" pin="370,1390" width="8" x="46" y="156"/>
+      <circ-port height="8" pin="370,140" width="8" x="46" y="76"/>
+      <circ-port height="8" pin="370,1490" width="8" x="46" y="396"/>
+      <circ-port height="8" pin="370,1590" width="8" x="46" y="416"/>
+      <circ-port height="8" pin="370,180" width="8" x="46" y="256"/>
+      <circ-port height="8" pin="370,280" width="8" x="46" y="216"/>
+      <circ-port height="8" pin="370,410" width="8" x="46" y="96"/>
+      <circ-port height="8" pin="370,450" width="8" x="46" y="276"/>
+      <circ-port height="8" pin="370,550" width="8" x="46" y="236"/>
+      <circ-port height="8" pin="370,610" width="8" x="46" y="316"/>
+      <circ-port height="8" pin="370,710" width="8" x="46" y="136"/>
+      <circ-port height="8" pin="370,770" width="8" x="46" y="356"/>
+      <circ-port height="8" pin="370,870" width="8" x="46" y="176"/>
+      <circ-port height="8" pin="370,940" width="8" x="46" y="376"/>
+      <rect fill="none" height="400" stroke="#000000" stroke-width="2" width="200" x="60" y="50"/>
+      <rect height="20" stroke="none" width="200" x="60" y="430"/>
+      <rect height="3" stroke="none" width="10" x="50" y="119"/>
+      <rect height="3" stroke="none" width="10" x="50" y="139"/>
+      <rect height="3" stroke="none" width="10" x="50" y="159"/>
+      <rect height="3" stroke="none" width="10" x="50" y="179"/>
+      <rect height="3" stroke="none" width="10" x="50" y="199"/>
+      <rect height="3" stroke="none" width="10" x="50" y="219"/>
+      <rect height="3" stroke="none" width="10" x="50" y="239"/>
+      <rect height="3" stroke="none" width="10" x="50" y="259"/>
+      <rect height="3" stroke="none" width="10" x="50" y="279"/>
+      <rect height="3" stroke="none" width="10" x="50" y="299"/>
+      <rect height="3" stroke="none" width="10" x="50" y="319"/>
+      <rect height="3" stroke="none" width="10" x="50" y="339"/>
+      <rect height="3" stroke="none" width="10" x="50" y="359"/>
+      <rect height="3" stroke="none" width="10" x="50" y="379"/>
+      <rect height="3" stroke="none" width="10" x="50" y="399"/>
+      <rect height="3" stroke="none" width="10" x="50" y="419"/>
+      <rect height="3" stroke="none" width="10" x="50" y="79"/>
+      <rect height="3" stroke="none" width="10" x="50" y="99"/>
+      <rect height="4" stroke="none" width="10" x="260" y="58"/>
+      <rect height="4" stroke="none" width="10" x="50" y="58"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="64">L</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="104">L_B_HI</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="124">L_SSP</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="144">L_C</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="164">L_PC</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="184">L_DP</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="204">L_SP</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="224">L_A_LO</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="244">L_B_LO</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="264">n_EL_A</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="284">n_EL_B</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="304">nEL_SSP</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="324">nEL_C</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="344">nEL_PC</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="364">nEL_DP</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="384">nEL_SP</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="404">nEL_TPC</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="424">COMMIT</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="64">Z</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="84">L_A_HI</text>
+      <text dominant-baseline="alphabetic" fill="#ffffff" font-family="Courier 10 Pitch" font-size="14" font-weight="bold" text-anchor="middle" x="160" y="444">GREGS</text>
+    </appear>
     <comp lib="0" loc="(110,110)" name="Pin">
       <a name="label" val="Z"/>
       <a name="radix" val="16"/>

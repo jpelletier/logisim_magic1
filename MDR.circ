@@ -13,6 +13,9 @@
     <tool name="Probe">
       <a name="facing" val="north"/>
     </tool>
+    <tool name="Tunnel">
+      <a name="facing" val="east"/>
+    </tool>
     <tool name="Pull Resistor">
       <a name="facing" val="north"/>
     </tool>
@@ -187,13 +190,70 @@ end TCL_Generic;
     </tool>
   </toolbar>
   <circuit name="MDR">
-    <a name="appearance" val="logisim_evolution"/>
+    <a name="appearance" val="custom"/>
     <a name="circuit" val="MDR"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="circuitvhdlpath" val=""/>
     <a name="clabel" val=""/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="clabelup" val="east"/>
+    <appear>
+      <circ-anchor facing="east" height="6" width="6" x="267" y="57"/>
+      <circ-port height="10" pin="1710,940" width="10" x="265" y="135"/>
+      <circ-port height="10" pin="1800,730" width="10" x="265" y="95"/>
+      <circ-port height="10" pin="1800,820" width="10" x="265" y="115"/>
+      <circ-port height="10" pin="490,620" width="10" x="265" y="75"/>
+      <circ-port height="10" pin="500,420" width="10" x="265" y="55"/>
+      <circ-port height="8" pin="1350,1210" width="8" x="46" y="136"/>
+      <circ-port height="8" pin="1350,610" width="8" x="46" y="116"/>
+      <circ-port height="8" pin="1800,770" width="8" x="46" y="156"/>
+      <circ-port height="8" pin="1800,860" width="8" x="46" y="176"/>
+      <circ-port height="8" pin="190,480" width="8" x="46" y="76"/>
+      <circ-port height="8" pin="250,540" width="8" x="46" y="96"/>
+      <circ-port height="8" pin="540,250" width="8" x="46" y="56"/>
+      <circ-port height="8" pin="560,1130" width="8" x="46" y="236"/>
+      <circ-port height="8" pin="560,1170" width="8" x="46" y="196"/>
+      <circ-port height="8" pin="560,760" width="8" x="46" y="216"/>
+      <circ-port height="8" pin="810,100" width="8" x="46" y="276"/>
+      <circ-port height="8" pin="810,80" width="8" x="46" y="256"/>
+      <rect fill="none" height="260" stroke="#000000" stroke-width="2" width="200" x="60" y="50"/>
+      <rect height="20" stroke="none" width="200" x="60" y="290"/>
+      <rect height="3" stroke="none" width="10" x="50" y="119"/>
+      <rect height="3" stroke="none" width="10" x="50" y="139"/>
+      <rect height="3" stroke="none" width="10" x="50" y="159"/>
+      <rect height="3" stroke="none" width="10" x="50" y="179"/>
+      <rect height="3" stroke="none" width="10" x="50" y="199"/>
+      <rect height="3" stroke="none" width="10" x="50" y="219"/>
+      <rect height="3" stroke="none" width="10" x="50" y="239"/>
+      <rect height="3" stroke="none" width="10" x="50" y="259"/>
+      <rect height="3" stroke="none" width="10" x="50" y="279"/>
+      <rect height="3" stroke="none" width="10" x="50" y="79"/>
+      <rect height="3" stroke="none" width="10" x="50" y="99"/>
+      <rect height="4" stroke="none" width="10" x="260" y="118"/>
+      <rect height="4" stroke="none" width="10" x="260" y="138"/>
+      <rect height="4" stroke="none" width="10" x="260" y="58"/>
+      <rect height="4" stroke="none" width="10" x="260" y="78"/>
+      <rect height="4" stroke="none" width="10" x="260" y="98"/>
+      <rect height="4" stroke="none" width="10" x="50" y="58"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="104">L</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="124">R</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="144">T</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="64">D</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="84">DBUS</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="104">nRW</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="124">nE_MDR_HI</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="144">nE_MDR_LO</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="164">nEL_MDR</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="184">nER_MDR</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="204">COMMIT</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="224">L_MDR_HI</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="244">L_MDR_LO</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="264">XL_MDR_HI</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="284">XL_MDR_LO</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="64">Z</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="84">nDMA_ACK</text>
+      <text dominant-baseline="alphabetic" fill="#ffffff" font-family="Courier 10 Pitch" font-size="14" font-weight="bold" text-anchor="middle" x="160" y="304">MDR</text>
+    </appear>
     <comp lib="0" loc="(1000,230)" name="Ground"/>
     <comp lib="0" loc="(1000,390)" name="Ground"/>
     <comp lib="0" loc="(1000,550)" name="Ground"/>
@@ -206,11 +266,11 @@ end TCL_Generic;
     </comp>
     <comp lib="0" loc="(1350,1210)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="nE_MDR_LOW"/>
+      <a name="label" val="nE_MDR_LO"/>
     </comp>
     <comp lib="0" loc="(1350,610)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="nE_MDR_HIGH"/>
+      <a name="label" val="nE_MDR_HI"/>
     </comp>
     <comp lib="0" loc="(1550,710)" name="Splitter">
       <a name="appear" val="center"/>
@@ -290,7 +350,7 @@ end TCL_Generic;
     </comp>
     <comp lib="0" loc="(560,1130)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="L_MDR_LOW"/>
+      <a name="label" val="L_MDR_LO"/>
     </comp>
     <comp lib="0" loc="(560,1170)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -303,7 +363,7 @@ end TCL_Generic;
     </comp>
     <comp lib="0" loc="(560,760)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="L_MDR_HIGH"/>
+      <a name="label" val="L_MDR_HI"/>
     </comp>
     <comp lib="0" loc="(570,520)" name="Tunnel">
       <a name="label" val="D"/>
@@ -316,11 +376,11 @@ end TCL_Generic;
     </comp>
     <comp lib="0" loc="(810,100)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="XL_MDR_LOW"/>
+      <a name="label" val="XL_MDR_LO"/>
     </comp>
     <comp lib="0" loc="(810,80)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="XL_MDR_HIGH"/>
+      <a name="label" val="XL_MDR_HI"/>
     </comp>
     <comp lib="0" loc="(890,690)" name="Ground"/>
     <comp lib="0" loc="(980,230)" name="Ground"/>

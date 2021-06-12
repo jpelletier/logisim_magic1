@@ -13,6 +13,9 @@
     <tool name="Probe">
       <a name="facing" val="north"/>
     </tool>
+    <tool name="Tunnel">
+      <a name="facing" val="east"/>
+    </tool>
     <tool name="Pull Resistor">
       <a name="facing" val="north"/>
     </tool>
@@ -127,7 +130,7 @@ end TCL_Generic;
       <a name="SocBusSelection" val=""/>
     </tool>
   </lib>
-  <lib desc="file#/home/public/electronique/Logisim/libs/logi7400ic.circ" name="12"/>
+  <lib desc="file#logi7400ic.circ" name="12"/>
   <main name="SREGS"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -260,12 +263,8 @@ end TCL_Generic;
     <comp lib="12" loc="(500,450)" name="IC_74273"/>
     <comp lib="12" loc="(780,310)" name="IC_74244"/>
     <comp lib="12" loc="(780,450)" name="IC_74244"/>
-    <comp lib="12" loc="(780,690)" name="IC_74244">
-      <a name="label" val="U45"/>
-    </comp>
-    <comp lib="12" loc="(780,850)" name="IC_74244">
-      <a name="label" val="U46"/>
-    </comp>
+    <comp lib="12" loc="(780,690)" name="IC_74244"/>
+    <comp lib="12" loc="(780,850)" name="IC_74244"/>
     <wire from="(120,310)" to="(120,340)"/>
     <wire from="(120,310)" to="(440,310)"/>
     <wire from="(120,350)" to="(130,350)"/>

@@ -193,13 +193,148 @@ end TCL_Generic;
     </tool>
   </toolbar>
   <circuit name="Front_Panel">
-    <a name="appearance" val="logisim_evolution"/>
+    <a name="appearance" val="custom"/>
     <a name="circuit" val="Front_Panel"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="circuitvhdlpath" val=""/>
     <a name="clabel" val=""/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="clabelup" val="east"/>
+    <appear>
+      <circ-anchor facing="east" height="6" width="6" x="267" y="57"/>
+      <circ-port height="10" pin="1030,960" width="10" x="265" y="115"/>
+      <circ-port height="10" pin="1090,910" width="10" x="265" y="155"/>
+      <circ-port height="10" pin="1350,460" width="10" x="265" y="235"/>
+      <circ-port height="10" pin="1640,400" width="10" x="265" y="215"/>
+      <circ-port height="10" pin="1890,630" width="10" x="265" y="95"/>
+      <circ-port height="10" pin="1920,360" width="10" x="265" y="195"/>
+      <circ-port height="10" pin="480,210" width="10" x="265" y="75"/>
+      <circ-port height="10" pin="930,170" width="10" x="265" y="55"/>
+      <circ-port height="10" pin="930,210" width="10" x="265" y="175"/>
+      <circ-port height="10" pin="930,870" width="10" x="265" y="135"/>
+      <circ-port height="8" pin="1080,390" width="8" x="46" y="376"/>
+      <circ-port height="8" pin="1080,410" width="8" x="46" y="356"/>
+      <circ-port height="8" pin="1080,430" width="8" x="46" y="316"/>
+      <circ-port height="8" pin="1080,450" width="8" x="46" y="296"/>
+      <circ-port height="8" pin="1080,470" width="8" x="46" y="256"/>
+      <circ-port height="8" pin="1080,490" width="8" x="46" y="276"/>
+      <circ-port height="8" pin="1080,510" width="8" x="46" y="236"/>
+      <circ-port height="8" pin="1330,980" width="8" x="46" y="216"/>
+      <circ-port height="8" pin="1650,1210" width="8" x="46" y="136"/>
+      <circ-port height="8" pin="1710,610" width="8" x="46" y="396"/>
+      <circ-port height="8" pin="1750,650" width="8" x="46" y="116"/>
+      <circ-port height="8" pin="1800,510" width="8" x="46" y="476"/>
+      <circ-port height="8" pin="1800,530" width="8" x="46" y="336"/>
+      <circ-port height="8" pin="1830,1080" width="8" x="46" y="556"/>
+      <circ-port height="8" pin="1880,820" width="8" x="46" y="576"/>
+      <circ-port height="8" pin="1920,1050" width="8" x="46" y="416"/>
+      <circ-port height="8" pin="280,610" width="8" x="46" y="176"/>
+      <circ-port height="8" pin="280,650" width="8" x="46" y="156"/>
+      <circ-port height="8" pin="320,1010" width="8" x="46" y="536"/>
+      <circ-port height="8" pin="320,1030" width="8" x="46" y="56"/>
+      <circ-port height="8" pin="320,1070" width="8" x="46" y="496"/>
+      <circ-port height="8" pin="320,1090" width="8" x="46" y="96"/>
+      <circ-port height="8" pin="320,990" width="8" x="46" y="516"/>
+      <circ-port height="8" pin="430,350" width="8" x="46" y="596"/>
+      <circ-port height="8" pin="430,370" width="8" x="46" y="616"/>
+      <circ-port height="8" pin="430,390" width="8" x="46" y="636"/>
+      <circ-port height="8" pin="430,410" width="8" x="46" y="656"/>
+      <circ-port height="8" pin="430,430" width="8" x="46" y="676"/>
+      <circ-port height="8" pin="430,450" width="8" x="46" y="696"/>
+      <circ-port height="8" pin="430,470" width="8" x="46" y="436"/>
+      <circ-port height="8" pin="430,490" width="8" x="46" y="456"/>
+      <circ-port height="8" pin="430,510" width="8" x="46" y="76"/>
+      <circ-port height="8" pin="470,880" width="8" x="46" y="196"/>
+      <rect fill="none" height="680" stroke="#000000" stroke-width="2" width="200" x="60" y="50"/>
+      <rect height="20" stroke="none" width="200" x="60" y="710"/>
+      <rect height="3" stroke="none" width="10" x="260" y="119"/>
+      <rect height="3" stroke="none" width="10" x="260" y="139"/>
+      <rect height="3" stroke="none" width="10" x="260" y="159"/>
+      <rect height="3" stroke="none" width="10" x="260" y="179"/>
+      <rect height="3" stroke="none" width="10" x="260" y="199"/>
+      <rect height="3" stroke="none" width="10" x="260" y="219"/>
+      <rect height="3" stroke="none" width="10" x="260" y="79"/>
+      <rect height="3" stroke="none" width="10" x="260" y="99"/>
+      <rect height="3" stroke="none" width="10" x="50" y="119"/>
+      <rect height="3" stroke="none" width="10" x="50" y="139"/>
+      <rect height="3" stroke="none" width="10" x="50" y="159"/>
+      <rect height="3" stroke="none" width="10" x="50" y="239"/>
+      <rect height="3" stroke="none" width="10" x="50" y="259"/>
+      <rect height="3" stroke="none" width="10" x="50" y="279"/>
+      <rect height="3" stroke="none" width="10" x="50" y="299"/>
+      <rect height="3" stroke="none" width="10" x="50" y="319"/>
+      <rect height="3" stroke="none" width="10" x="50" y="339"/>
+      <rect height="3" stroke="none" width="10" x="50" y="359"/>
+      <rect height="3" stroke="none" width="10" x="50" y="379"/>
+      <rect height="3" stroke="none" width="10" x="50" y="399"/>
+      <rect height="3" stroke="none" width="10" x="50" y="419"/>
+      <rect height="3" stroke="none" width="10" x="50" y="439"/>
+      <rect height="3" stroke="none" width="10" x="50" y="459"/>
+      <rect height="3" stroke="none" width="10" x="50" y="479"/>
+      <rect height="3" stroke="none" width="10" x="50" y="499"/>
+      <rect height="3" stroke="none" width="10" x="50" y="519"/>
+      <rect height="3" stroke="none" width="10" x="50" y="539"/>
+      <rect height="3" stroke="none" width="10" x="50" y="59"/>
+      <rect height="3" stroke="none" width="10" x="50" y="599"/>
+      <rect height="3" stroke="none" width="10" x="50" y="619"/>
+      <rect height="3" stroke="none" width="10" x="50" y="639"/>
+      <rect height="3" stroke="none" width="10" x="50" y="659"/>
+      <rect height="3" stroke="none" width="10" x="50" y="679"/>
+      <rect height="3" stroke="none" width="10" x="50" y="699"/>
+      <rect height="3" stroke="none" width="10" x="50" y="79"/>
+      <rect height="3" stroke="none" width="10" x="50" y="99"/>
+      <rect height="4" stroke="none" width="10" x="260" y="238"/>
+      <rect height="4" stroke="none" width="10" x="260" y="58"/>
+      <rect height="4" stroke="none" width="10" x="50" y="178"/>
+      <rect height="4" stroke="none" width="10" x="50" y="198"/>
+      <rect height="4" stroke="none" width="10" x="50" y="218"/>
+      <rect height="4" stroke="none" width="10" x="50" y="558"/>
+      <rect height="4" stroke="none" width="10" x="50" y="578"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="104">ZINIT_INST</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="124">MANUAL_CLK</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="144">nSTOP_CLK</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="164">nDMA_REQ</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="184">FP_RAM</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="204">MEMORY</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="224">nFP_WRITE</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="244">FP_L</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="64">CLOCK_SELECT</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="84">nBP_RESET</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="104">INIT_INST</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="124">XINIT_INST</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="144">L_PCODE</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="164">L_FPL</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="184">L</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="204">IR</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="224">MAR</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="244">MSWZ</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="264">MSWC</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="284">MSWS</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="304">MSWV</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="324">MSWM</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="344">nPSEL2</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="364">MSWE</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="384">MSWP</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="404">CLKS</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="424">nDMA_ACK</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="444">nHALT</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="464">nRESET</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="484">nRW</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="504">nWR</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="524">nNP</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="544">nNW</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="564">A</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="584">DBUS</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="604">nIRQ5</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="624">nIRQ4</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="64">MEMREF</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="644">nIRQ3</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="664">nIRQ2</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="684">nIRQ1</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="704">nIRQ0</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="84">IDE_DRV</text>
+      <text dominant-baseline="alphabetic" fill="#ffffff" font-family="Courier 10 Pitch" font-size="14" font-weight="bold" text-anchor="middle" x="160" y="724">Front_Panel</text>
+    </appear>
     <comp lib="0" loc="(1010,780)" name="Splitter">
       <a name="appear" val="right"/>
       <a name="bit0" val="5"/>
@@ -762,7 +897,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(1020,890)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@f6e97"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@70344369"/>
       <a name="number" val="3"/>
     </comp>
     <comp lib="5" loc="(1040,1000)" name="LED">
@@ -876,7 +1011,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(1260,890)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@bf75187"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@6bc9aa22"/>
     </comp>
     <comp lib="5" loc="(1280,1000)" name="LED">
       <a name="facing" val="north"/>
@@ -889,7 +1024,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(1280,490)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@1b4291cf"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@670478f7"/>
       <a name="number" val="4"/>
     </comp>
     <comp lib="5" loc="(1280,800)" name="LED">
@@ -1121,7 +1256,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(720,1190)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@5e19569f"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@152d9336"/>
       <a name="number" val="22"/>
     </comp>
     <comp lib="5" loc="(720,530)" name="LED">
@@ -1253,7 +1388,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(870,230)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@2519f01d"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@47d0a5f1"/>
       <a name="number" val="3"/>
     </comp>
     <comp lib="5" loc="(880,1000)" name="LED">

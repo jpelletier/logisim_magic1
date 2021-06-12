@@ -181,13 +181,88 @@ end TCL_Generic;
     </tool>
   </toolbar>
   <circuit name="MSW">
-    <a name="appearance" val="logisim_evolution"/>
+    <a name="appearance" val="custom"/>
     <a name="circuit" val="MSW"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="circuitvhdlpath" val=""/>
     <a name="clabel" val=""/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="clabelup" val="east"/>
+    <appear>
+      <circ-anchor facing="east" height="6" width="6" x="267" y="57"/>
+      <circ-port height="10" pin="210,1020" width="10" x="265" y="115"/>
+      <circ-port height="10" pin="210,900" width="10" x="265" y="55"/>
+      <circ-port height="10" pin="210,940" width="10" x="265" y="75"/>
+      <circ-port height="10" pin="210,980" width="10" x="265" y="95"/>
+      <circ-port height="10" pin="720,1000" width="10" x="265" y="135"/>
+      <circ-port height="10" pin="720,1070" width="10" x="265" y="235"/>
+      <circ-port height="10" pin="720,930" width="10" x="265" y="175"/>
+      <circ-port height="10" pin="720,960" width="10" x="265" y="195"/>
+      <circ-port height="8" pin="160,280" width="8" x="46" y="136"/>
+      <circ-port height="8" pin="210,320" width="8" x="46" y="256"/>
+      <circ-port height="8" pin="210,360" width="8" x="46" y="216"/>
+      <circ-port height="8" pin="210,420" width="8" x="46" y="236"/>
+      <circ-port height="8" pin="210,460" width="8" x="46" y="276"/>
+      <circ-port height="8" pin="210,690" width="8" x="46" y="196"/>
+      <circ-port height="8" pin="210,730" width="8" x="46" y="316"/>
+      <circ-port height="8" pin="210,760" width="8" x="46" y="336"/>
+      <circ-port height="8" pin="510,1140" width="8" x="46" y="176"/>
+      <circ-port height="8" pin="670,130" width="8" x="46" y="76"/>
+      <circ-port height="8" pin="670,170" width="8" x="46" y="96"/>
+      <circ-port height="8" pin="670,210" width="8" x="46" y="116"/>
+      <circ-port height="8" pin="670,90" width="8" x="46" y="56"/>
+      <circ-port height="8" pin="780,300" width="8" x="46" y="156"/>
+      <circ-port height="8" pin="950,460" width="8" x="46" y="296"/>
+      <rect fill="none" height="320" stroke="#000000" stroke-width="2" width="200" x="60" y="50"/>
+      <rect height="20" stroke="none" width="200" x="60" y="350"/>
+      <rect height="3" stroke="none" width="10" x="260" y="119"/>
+      <rect height="3" stroke="none" width="10" x="260" y="139"/>
+      <rect height="3" stroke="none" width="10" x="260" y="179"/>
+      <rect height="3" stroke="none" width="10" x="260" y="199"/>
+      <rect height="3" stroke="none" width="10" x="260" y="59"/>
+      <rect height="3" stroke="none" width="10" x="260" y="79"/>
+      <rect height="3" stroke="none" width="10" x="260" y="99"/>
+      <rect height="3" stroke="none" width="10" x="50" y="119"/>
+      <rect height="3" stroke="none" width="10" x="50" y="159"/>
+      <rect height="3" stroke="none" width="10" x="50" y="179"/>
+      <rect height="3" stroke="none" width="10" x="50" y="199"/>
+      <rect height="3" stroke="none" width="10" x="50" y="219"/>
+      <rect height="3" stroke="none" width="10" x="50" y="239"/>
+      <rect height="3" stroke="none" width="10" x="50" y="259"/>
+      <rect height="3" stroke="none" width="10" x="50" y="279"/>
+      <rect height="3" stroke="none" width="10" x="50" y="299"/>
+      <rect height="3" stroke="none" width="10" x="50" y="319"/>
+      <rect height="3" stroke="none" width="10" x="50" y="339"/>
+      <rect height="3" stroke="none" width="10" x="50" y="59"/>
+      <rect height="3" stroke="none" width="10" x="50" y="79"/>
+      <rect height="3" stroke="none" width="10" x="50" y="99"/>
+      <rect height="4" stroke="none" width="10" x="260" y="238"/>
+      <rect height="4" stroke="none" width="10" x="50" y="138"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="104">MSWS</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="124">MSWV</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="144">MSWM</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="184">MSWE</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="204">MSWP</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="244">L</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="64">MSWZ</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="84">MSWC</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="104">ALUC</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="124">ALUZ</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="144">Z</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="164">nSET_FLAGS</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="184">nEL_MSW</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="204">nRESET</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="224">MEMREF</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="244">xCODE_PTB</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="264">L_FAULT</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="284">L_EI</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="304">L_MSW</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="324">L_PAGING</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="344">L_MODE</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="64">ALUV</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="84">ALUS</text>
+      <text dominant-baseline="alphabetic" fill="#ffffff" font-family="Courier 10 Pitch" font-size="14" font-weight="bold" text-anchor="middle" x="160" y="364">MSW</text>
+    </appear>
     <comp lib="0" loc="(160,280)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="Z"/>
