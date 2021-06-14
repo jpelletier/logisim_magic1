@@ -206,6 +206,7 @@ end TCL_Generic;
       <circ-port height="10" pin="1090,910" width="10" x="265" y="155"/>
       <circ-port height="10" pin="1350,460" width="10" x="265" y="235"/>
       <circ-port height="10" pin="1640,400" width="10" x="265" y="215"/>
+      <circ-port height="10" pin="1880,820" width="10" x="45" y="575"/>
       <circ-port height="10" pin="1890,630" width="10" x="265" y="95"/>
       <circ-port height="10" pin="1920,360" width="10" x="265" y="195"/>
       <circ-port height="10" pin="480,210" width="10" x="265" y="75"/>
@@ -226,7 +227,6 @@ end TCL_Generic;
       <circ-port height="8" pin="1800,510" width="8" x="46" y="476"/>
       <circ-port height="8" pin="1800,530" width="8" x="46" y="336"/>
       <circ-port height="8" pin="1830,1080" width="8" x="46" y="556"/>
-      <circ-port height="8" pin="1880,820" width="8" x="46" y="576"/>
       <circ-port height="8" pin="1920,1050" width="8" x="46" y="416"/>
       <circ-port height="8" pin="280,610" width="8" x="46" y="176"/>
       <circ-port height="8" pin="280,650" width="8" x="46" y="156"/>
@@ -590,7 +590,9 @@ end TCL_Generic;
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="DBUS"/>
+      <a name="output" val="true"/>
       <a name="radix" val="16"/>
+      <a name="tristate" val="true"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(1890,630)" name="Pin">
@@ -897,7 +899,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(1020,890)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@70344369"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@78fa856e"/>
       <a name="number" val="3"/>
     </comp>
     <comp lib="5" loc="(1040,1000)" name="LED">
@@ -1011,7 +1013,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(1260,890)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@6bc9aa22"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@3a2b1785"/>
     </comp>
     <comp lib="5" loc="(1280,1000)" name="LED">
       <a name="facing" val="north"/>
@@ -1024,7 +1026,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(1280,490)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@670478f7"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@6db51793"/>
       <a name="number" val="4"/>
     </comp>
     <comp lib="5" loc="(1280,800)" name="LED">
@@ -1256,7 +1258,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(720,1190)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@152d9336"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@4e8c2af6"/>
       <a name="number" val="22"/>
     </comp>
     <comp lib="5" loc="(720,530)" name="LED">
@@ -1388,7 +1390,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(870,230)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@47d0a5f1"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@627117bc"/>
       <a name="number" val="3"/>
     </comp>
     <comp lib="5" loc="(880,1000)" name="LED">
