@@ -571,6 +571,7 @@ end TCL_Generic;
       <a name="label" val="L"/>
       <a name="output" val="true"/>
       <a name="radix" val="16"/>
+      <a name="tristate" val="true"/>
       <a name="width" val="16"/>
     </comp>
     <comp lib="0" loc="(3160,870)" name="Ground"/>

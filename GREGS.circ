@@ -405,6 +405,14 @@ end TCL_Generic;
       <a name="tristate" val="true"/>
       <a name="width" val="16"/>
     </comp>
+    <comp lib="1" loc="(470,1120)" name="NOT Gate"/>
+    <comp lib="1" loc="(470,1290)" name="NOT Gate"/>
+    <comp lib="1" loc="(470,180)" name="NOT Gate"/>
+    <comp lib="1" loc="(470,450)" name="NOT Gate"/>
+    <comp lib="1" loc="(470,610)" name="NOT Gate"/>
+    <comp lib="1" loc="(470,770)" name="NOT Gate"/>
+    <comp lib="1" loc="(470,940)" name="NOT Gate"/>
+    <comp lib="1" loc="(480,1490)" name="NOT Gate"/>
     <comp lib="1" loc="(560,100)" name="Controlled Buffer">
       <a name="width" val="8"/>
     </comp>
@@ -515,26 +523,34 @@ end TCL_Generic;
     <wire from="(200,100)" to="(430,100)"/>
     <wire from="(200,370)" to="(430,370)"/>
     <wire from="(370,1040)" to="(430,1040)"/>
-    <wire from="(370,1120)" to="(550,1120)"/>
+    <wire from="(370,1120)" to="(440,1120)"/>
     <wire from="(370,1220)" to="(430,1220)"/>
-    <wire from="(370,1290)" to="(550,1290)"/>
+    <wire from="(370,1290)" to="(440,1290)"/>
     <wire from="(370,1390)" to="(430,1390)"/>
     <wire from="(370,140)" to="(430,140)"/>
-    <wire from="(370,1490)" to="(550,1490)"/>
+    <wire from="(370,1490)" to="(450,1490)"/>
     <wire from="(370,1590)" to="(430,1590)"/>
-    <wire from="(370,180)" to="(550,180)"/>
+    <wire from="(370,180)" to="(440,180)"/>
     <wire from="(370,280)" to="(430,280)"/>
     <wire from="(370,410)" to="(430,410)"/>
-    <wire from="(370,450)" to="(550,450)"/>
+    <wire from="(370,450)" to="(440,450)"/>
     <wire from="(370,550)" to="(430,550)"/>
-    <wire from="(370,610)" to="(550,610)"/>
+    <wire from="(370,610)" to="(440,610)"/>
     <wire from="(370,710)" to="(430,710)"/>
-    <wire from="(370,770)" to="(550,770)"/>
+    <wire from="(370,770)" to="(440,770)"/>
     <wire from="(370,870)" to="(430,870)"/>
-    <wire from="(370,940)" to="(550,940)"/>
+    <wire from="(370,940)" to="(440,940)"/>
     <wire from="(390,1440)" to="(390,1550)"/>
     <wire from="(390,1440)" to="(750,1440)"/>
     <wire from="(390,1550)" to="(430,1550)"/>
+    <wire from="(470,1120)" to="(550,1120)"/>
+    <wire from="(470,1290)" to="(550,1290)"/>
+    <wire from="(470,180)" to="(550,180)"/>
+    <wire from="(470,450)" to="(550,450)"/>
+    <wire from="(470,610)" to="(550,610)"/>
+    <wire from="(470,770)" to="(550,770)"/>
+    <wire from="(470,940)" to="(550,940)"/>
+    <wire from="(480,1490)" to="(550,1490)"/>
     <wire from="(490,100)" to="(540,100)"/>
     <wire from="(490,1000)" to="(540,1000)"/>
     <wire from="(490,1180)" to="(540,1180)"/>
