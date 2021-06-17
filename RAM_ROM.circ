@@ -199,7 +199,7 @@ end TCL_Generic;
     <comp lib="0" loc="(1250,100)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="D"/>
+      <a name="label" val="DBUS"/>
       <a name="output" val="true"/>
       <a name="radix" val="16"/>
       <a name="width" val="8"/>

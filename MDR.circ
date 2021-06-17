@@ -403,8 +403,12 @@ end TCL_Generic;
     <comp lib="1" loc="(1730,860)" name="NOT Gate">
       <a name="facing" val="west"/>
     </comp>
-    <comp lib="1" loc="(260,480)" name="NOT Gate"/>
-    <comp lib="1" loc="(980,1170)" name="NOT Gate"/>
+    <comp lib="1" loc="(260,480)" name="NOT Gate">
+      <a name="label" val="U12E"/>
+    </comp>
+    <comp lib="1" loc="(980,1170)" name="NOT Gate">
+      <a name="label" val="U12D"/>
+    </comp>
     <comp lib="12" loc="(1020,140)" name="IC_74153">
       <a name="label" val="U65"/>
       <a name="labelloc" val="east"/>

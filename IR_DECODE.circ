@@ -215,7 +215,6 @@ end TCL_Generic;
       <circ-port height="10" pin="1670,860" width="10" x="265" y="235"/>
       <circ-port height="10" pin="1670,890" width="10" x="265" y="215"/>
       <circ-port height="10" pin="1700,500" width="10" x="265" y="395"/>
-      <circ-port height="10" pin="1850,560" width="10" x="265" y="55"/>
       <circ-port height="10" pin="1960,350" width="10" x="265" y="355"/>
       <circ-port height="10" pin="2180,1460" width="10" x="265" y="495"/>
       <circ-port height="10" pin="2180,1500" width="10" x="265" y="195"/>
@@ -238,6 +237,7 @@ end TCL_Generic;
       <circ-port height="10" pin="3360,780" width="10" x="265" y="175"/>
       <circ-port height="10" pin="880,370" width="10" x="265" y="295"/>
       <circ-port height="8" pin="1800,220" width="8" x="46" y="216"/>
+      <circ-port height="8" pin="1850,560" width="8" x="266" y="56"/>
       <circ-port height="8" pin="260,1180" width="8" x="46" y="316"/>
       <circ-port height="8" pin="2840,1180" width="8" x="46" y="276"/>
       <circ-port height="8" pin="310,180" width="8" x="46" y="256"/>
@@ -420,9 +420,7 @@ end TCL_Generic;
     <comp lib="0" loc="(1850,560)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="DBUS"/>
-      <a name="output" val="true"/>
       <a name="radix" val="16"/>
-      <a name="tristate" val="true"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(1960,350)" name="Pin">
