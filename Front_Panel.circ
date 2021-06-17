@@ -228,8 +228,9 @@ end TCL_Generic;
       <circ-port height="8" pin="1800,530" width="8" x="46" y="336"/>
       <circ-port height="8" pin="1830,1080" width="8" x="46" y="556"/>
       <circ-port height="8" pin="1920,1050" width="8" x="46" y="416"/>
-      <circ-port height="8" pin="280,610" width="8" x="46" y="176"/>
-      <circ-port height="8" pin="280,650" width="8" x="46" y="156"/>
+      <circ-port height="8" pin="220,490" width="8" x="46" y="456"/>
+      <circ-port height="8" pin="230,650" width="8" x="46" y="156"/>
+      <circ-port height="8" pin="250,610" width="8" x="46" y="176"/>
       <circ-port height="8" pin="320,1010" width="8" x="46" y="536"/>
       <circ-port height="8" pin="320,1030" width="8" x="46" y="56"/>
       <circ-port height="8" pin="320,1070" width="8" x="46" y="496"/>
@@ -242,7 +243,6 @@ end TCL_Generic;
       <circ-port height="8" pin="430,430" width="8" x="46" y="676"/>
       <circ-port height="8" pin="430,450" width="8" x="46" y="696"/>
       <circ-port height="8" pin="430,470" width="8" x="46" y="436"/>
-      <circ-port height="8" pin="430,490" width="8" x="46" y="456"/>
       <circ-port height="8" pin="430,510" width="8" x="46" y="76"/>
       <circ-port height="8" pin="470,880" width="8" x="46" y="196"/>
       <rect fill="none" height="680" stroke="#000000" stroke-width="2" width="200" x="60" y="50"/>
@@ -616,15 +616,19 @@ end TCL_Generic;
       <a name="label" val="MEMORY"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(280,610)" name="Pin">
+    <comp lib="0" loc="(220,490)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="nRESET"/>
+    </comp>
+    <comp lib="0" loc="(230,650)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="L_FPL"/>
+    </comp>
+    <comp lib="0" loc="(250,610)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="L"/>
       <a name="radix" val="16"/>
       <a name="width" val="16"/>
-    </comp>
-    <comp lib="0" loc="(280,650)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="label" val="L_FPL"/>
     </comp>
     <comp lib="0" loc="(320,1010)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -649,7 +653,6 @@ end TCL_Generic;
     <comp lib="0" loc="(340,630)" name="Power">
       <a name="facing" val="west"/>
     </comp>
-    <comp lib="0" loc="(370,670)" name="Ground"/>
     <comp lib="0" loc="(430,350)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="nIRQ5"/>
@@ -677,10 +680,6 @@ end TCL_Generic;
     <comp lib="0" loc="(430,470)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="nHALT"/>
-    </comp>
-    <comp lib="0" loc="(430,490)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="label" val="nRESET"/>
     </comp>
     <comp lib="0" loc="(430,510)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -842,6 +841,7 @@ end TCL_Generic;
     </comp>
     <comp lib="1" loc="(1920,490)" name="NAND Gate"/>
     <comp lib="1" loc="(2020,510)" name="NAND Gate"/>
+    <comp lib="1" loc="(270,490)" name="NOT Gate"/>
     <comp lib="1" loc="(430,1010)" name="NOT Gate"/>
     <comp lib="1" loc="(430,1070)" name="NOT Gate"/>
     <comp lib="1" loc="(430,990)" name="NOT Gate"/>
@@ -853,7 +853,6 @@ end TCL_Generic;
     <comp lib="1" loc="(460,430)" name="NOT Gate"/>
     <comp lib="1" loc="(460,450)" name="NOT Gate"/>
     <comp lib="1" loc="(460,470)" name="NOT Gate"/>
-    <comp lib="1" loc="(460,490)" name="NOT Gate"/>
     <comp lib="1" loc="(960,870)" name="NOT Gate">
       <a name="facing" val="west"/>
     </comp>
@@ -899,7 +898,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(1020,890)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@78fa856e"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@693c3ad0"/>
       <a name="number" val="3"/>
     </comp>
     <comp lib="5" loc="(1040,1000)" name="LED">
@@ -1013,7 +1012,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(1260,890)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@3a2b1785"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@3c152e86"/>
     </comp>
     <comp lib="5" loc="(1280,1000)" name="LED">
       <a name="facing" val="north"/>
@@ -1026,7 +1025,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(1280,490)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@6db51793"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@7ce31f00"/>
       <a name="number" val="4"/>
     </comp>
     <comp lib="5" loc="(1280,800)" name="LED">
@@ -1258,7 +1257,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(720,1190)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@4e8c2af6"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@2acaab80"/>
       <a name="number" val="22"/>
     </comp>
     <comp lib="5" loc="(720,530)" name="LED">
@@ -1390,7 +1389,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(870,230)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@627117bc"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@2228feb3"/>
       <a name="number" val="3"/>
     </comp>
     <comp lib="5" loc="(880,1000)" name="LED">
@@ -1581,8 +1580,13 @@ end TCL_Generic;
     <wire from="(1920,490)" to="(1960,490)"/>
     <wire from="(2020,510)" to="(2050,510)"/>
     <wire from="(2050,510)" to="(2050,900)"/>
-    <wire from="(280,610)" to="(340,610)"/>
-    <wire from="(280,650)" to="(340,650)"/>
+    <wire from="(220,490)" to="(240,490)"/>
+    <wire from="(230,650)" to="(340,650)"/>
+    <wire from="(250,610)" to="(340,610)"/>
+    <wire from="(270,490)" to="(290,490)"/>
+    <wire from="(290,490)" to="(290,690)"/>
+    <wire from="(290,490)" to="(520,490)"/>
+    <wire from="(290,690)" to="(370,690)"/>
     <wire from="(320,1010)" to="(400,1010)"/>
     <wire from="(320,1030)" to="(430,1030)"/>
     <wire from="(320,1070)" to="(400,1070)"/>
@@ -1591,6 +1595,7 @@ end TCL_Generic;
     <wire from="(360,1300)" to="(1690,1300)"/>
     <wire from="(360,780)" to="(360,1300)"/>
     <wire from="(360,780)" to="(470,780)"/>
+    <wire from="(370,670)" to="(370,690)"/>
     <wire from="(400,210)" to="(430,210)"/>
     <wire from="(400,610)" to="(470,610)"/>
     <wire from="(430,510)" to="(480,510)"/>
@@ -1603,7 +1608,6 @@ end TCL_Generic;
     <wire from="(460,430)" to="(640,430)"/>
     <wire from="(460,450)" to="(600,450)"/>
     <wire from="(460,470)" to="(560,470)"/>
-    <wire from="(460,490)" to="(520,490)"/>
     <wire from="(480,510)" to="(480,530)"/>
     <wire from="(520,490)" to="(520,530)"/>
     <wire from="(560,470)" to="(560,530)"/>
