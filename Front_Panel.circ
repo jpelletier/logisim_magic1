@@ -868,7 +868,6 @@ end TCL_Generic;
     </comp>
     <comp lib="4" loc="(340,580)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
-      <a name="trigger" val="high"/>
       <a name="width" val="16"/>
     </comp>
     <comp lib="5" loc="(1000,1000)" name="LED">
@@ -898,7 +897,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(1020,890)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@693c3ad0"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@51407c54"/>
       <a name="number" val="3"/>
     </comp>
     <comp lib="5" loc="(1040,1000)" name="LED">
@@ -1012,7 +1011,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(1260,890)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@3c152e86"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@34b0978c"/>
     </comp>
     <comp lib="5" loc="(1280,1000)" name="LED">
       <a name="facing" val="north"/>
@@ -1025,7 +1024,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(1280,490)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@7ce31f00"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@8861e7a"/>
       <a name="number" val="4"/>
     </comp>
     <comp lib="5" loc="(1280,800)" name="LED">
@@ -1257,7 +1256,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(720,1190)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@2acaab80"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@3ddf9631"/>
       <a name="number" val="22"/>
     </comp>
     <comp lib="5" loc="(720,530)" name="LED">
@@ -1389,7 +1388,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(870,230)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@2228feb3"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@6f2fef02"/>
       <a name="number" val="3"/>
     </comp>
     <comp lib="5" loc="(880,1000)" name="LED">
@@ -1472,6 +1471,86 @@ end TCL_Generic;
       <a name="label" val="DMA"/>
       <a name="labelfont" val="SansSerif bold 12"/>
       <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="8" loc="(1266,219)" name="Text">
+      <a name="font" val="SansSerif plain 16"/>
+      <a name="halign" val="left"/>
+      <a name="text" val="0 MAR"/>
+    </comp>
+    <comp lib="8" loc="(1266,233)" name="Text">
+      <a name="font" val="SansSerif plain 16"/>
+      <a name="halign" val="left"/>
+      <a name="text" val="1 MDR"/>
+    </comp>
+    <comp lib="8" loc="(1267,247)" name="Text">
+      <a name="font" val="SansSerif plain 16"/>
+      <a name="halign" val="left"/>
+      <a name="text" val="2 DP"/>
+    </comp>
+    <comp lib="8" loc="(1267,261)" name="Text">
+      <a name="font" val="SansSerif plain 16"/>
+      <a name="halign" val="left"/>
+      <a name="text" val="3 FCODE"/>
+    </comp>
+    <comp lib="8" loc="(1267,274)" name="Text">
+      <a name="font" val="SansSerif plain 16"/>
+      <a name="halign" val="left"/>
+      <a name="text" val="4 C"/>
+    </comp>
+    <comp lib="8" loc="(1267,288)" name="Text">
+      <a name="font" val="SansSerif plain 16"/>
+      <a name="halign" val="left"/>
+      <a name="text" val="5 SSP"/>
+    </comp>
+    <comp lib="8" loc="(1268,302)" name="Text">
+      <a name="font" val="SansSerif plain 16"/>
+      <a name="halign" val="left"/>
+      <a name="text" val="6 A"/>
+    </comp>
+    <comp lib="8" loc="(1268,316)" name="Text">
+      <a name="font" val="SansSerif plain 16"/>
+      <a name="halign" val="left"/>
+      <a name="text" val="7 ---"/>
+    </comp>
+    <comp lib="8" loc="(1269,329)" name="Text">
+      <a name="font" val="SansSerif plain 16"/>
+      <a name="halign" val="left"/>
+      <a name="text" val="8 MSW"/>
+    </comp>
+    <comp lib="8" loc="(1269,343)" name="Text">
+      <a name="font" val="SansSerif plain 16"/>
+      <a name="halign" val="left"/>
+      <a name="text" val="9 ---"/>
+    </comp>
+    <comp lib="8" loc="(1270,357)" name="Text">
+      <a name="font" val="SansSerif plain 16"/>
+      <a name="halign" val="left"/>
+      <a name="text" val="A SP"/>
+    </comp>
+    <comp lib="8" loc="(1270,371)" name="Text">
+      <a name="font" val="SansSerif plain 16"/>
+      <a name="halign" val="left"/>
+      <a name="text" val="B ---"/>
+    </comp>
+    <comp lib="8" loc="(1270,384)" name="Text">
+      <a name="font" val="SansSerif plain 16"/>
+      <a name="halign" val="left"/>
+      <a name="text" val="C PC"/>
+    </comp>
+    <comp lib="8" loc="(1270,398)" name="Text">
+      <a name="font" val="SansSerif plain 16"/>
+      <a name="halign" val="left"/>
+      <a name="text" val="D TPC"/>
+    </comp>
+    <comp lib="8" loc="(1271,412)" name="Text">
+      <a name="font" val="SansSerif plain 16"/>
+      <a name="halign" val="left"/>
+      <a name="text" val="E B"/>
+    </comp>
+    <comp lib="8" loc="(1271,426)" name="Text">
+      <a name="font" val="SansSerif plain 16"/>
+      <a name="halign" val="left"/>
+      <a name="text" val="F ---"/>
     </comp>
     <comp lib="8" loc="(1318,552)" name="Text">
       <a name="font" val="SansSerif plain 24"/>

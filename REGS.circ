@@ -205,7 +205,6 @@ end TCL_Generic;
       <circ-port height="10" pin="1040,720" width="10" x="265" y="75"/>
       <circ-port height="10" pin="1040,740" width="10" x="265" y="95"/>
       <circ-port height="10" pin="1040,780" width="10" x="265" y="115"/>
-      <circ-port height="10" pin="1040,800" width="10" x="265" y="135"/>
       <circ-port height="8" pin="210,740" width="8" x="46" y="156"/>
       <circ-port height="8" pin="210,760" width="8" x="46" y="176"/>
       <circ-port height="8" pin="260,250" width="8" x="46" y="56"/>
@@ -221,7 +220,6 @@ end TCL_Generic;
       <rect height="3" stroke="none" width="10" x="50" y="179"/>
       <rect height="3" stroke="none" width="10" x="50" y="199"/>
       <rect height="4" stroke="none" width="10" x="260" y="118"/>
-      <rect height="4" stroke="none" width="10" x="260" y="138"/>
       <rect height="4" stroke="none" width="10" x="260" y="158"/>
       <rect height="4" stroke="none" width="10" x="260" y="58"/>
       <rect height="4" stroke="none" width="10" x="260" y="78"/>
@@ -234,7 +232,6 @@ end TCL_Generic;
       <rect height="4" stroke="none" width="10" x="50" y="98"/>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="104">DBUS</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="124">R</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="144">T</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="164">MAR</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="64">L</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="84">D</text>
@@ -292,14 +289,6 @@ end TCL_Generic;
       <a name="output" val="true"/>
       <a name="radix" val="16"/>
       <a name="tristate" val="true"/>
-      <a name="width" val="16"/>
-    </comp>
-    <comp lib="0" loc="(1040,800)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="facing" val="west"/>
-      <a name="label" val="T"/>
-      <a name="output" val="true"/>
-      <a name="radix" val="16"/>
       <a name="width" val="16"/>
     </comp>
     <comp lib="0" loc="(210,740)" name="Pin">
@@ -490,7 +479,6 @@ end TCL_Generic;
     <wire from="(930,740)" to="(1040,740)"/>
     <wire from="(930,760)" to="(990,760)"/>
     <wire from="(930,780)" to="(1010,780)"/>
-    <wire from="(930,800)" to="(1040,800)"/>
     <wire from="(990,290)" to="(1030,290)"/>
     <wire from="(990,290)" to="(990,760)"/>
     <wire from="(990,760)" to="(990,1030)"/>
