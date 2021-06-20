@@ -142,8 +142,8 @@ end TCL_Generic;
       <a name="SocBusSelection" val=""/>
     </tool>
   </lib>
-  <lib desc="file#/home/public/electronique/Logisim/libs/logi7400ic.circ" name="12"/>
-  <lib desc="file#Magic1_TTL.circ" name="13"/>
+  <lib desc="file#Magic1_TTL.circ" name="12"/>
+  <lib desc="file#logi7400ic.circ" name="13"/>
   <main name="MDR"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -183,10 +183,10 @@ end TCL_Generic;
     <tool lib="1" name="NOR Gate"/>
     <sep/>
     <tool lib="4" name="D Flip-Flop">
-      <a name="appearance" val="logisim_evolution"/>
+      <a name="appearance" val="classic"/>
     </tool>
     <tool lib="4" name="Register">
-      <a name="appearance" val="logisim_evolution"/>
+      <a name="appearance" val="classic"/>
     </tool>
   </toolbar>
   <circuit name="MDR">
@@ -398,40 +398,44 @@ end TCL_Generic;
     <comp lib="1" loc="(980,1170)" name="NOT Gate">
       <a name="label" val="U12D"/>
     </comp>
-    <comp lib="12" loc="(1020,140)" name="IC_74153">
+    <comp lib="12" loc="(510,520)" name="SN74245">
+      <a name="label" val="U61"/>
+    </comp>
+    <comp lib="13" loc="(1020,140)" name="IC_74153">
       <a name="label" val="U65"/>
-      <a name="labelloc" val="east"/>
+      <a name="labelloc" val="south"/>
     </comp>
-    <comp lib="12" loc="(1020,300)" name="IC_74153">
+    <comp lib="13" loc="(1020,300)" name="IC_74153">
       <a name="label" val="U64"/>
-      <a name="labelloc" val="east"/>
+      <a name="labelloc" val="south"/>
     </comp>
-    <comp lib="12" loc="(1020,460)" name="IC_74153">
+    <comp lib="13" loc="(1020,460)" name="IC_74153">
       <a name="label" val="U63"/>
-      <a name="labelloc" val="east"/>
+      <a name="labelloc" val="south"/>
     </comp>
-    <comp lib="12" loc="(1020,620)" name="IC_74153">
+    <comp lib="13" loc="(1020,620)" name="IC_74153">
       <a name="label" val="U62"/>
-      <a name="labelloc" val="east"/>
+      <a name="labelloc" val="south"/>
     </comp>
-    <comp lib="12" loc="(1020,810)" name="IC_74157">
+    <comp lib="13" loc="(1020,810)" name="IC_74157">
       <a name="label" val="U52"/>
-      <a name="labelloc" val="east"/>
+      <a name="labelloc" val="south"/>
     </comp>
-    <comp lib="12" loc="(1020,980)" name="IC_74157">
+    <comp lib="13" loc="(1020,980)" name="IC_74157">
       <a name="label" val="U51"/>
-      <a name="labelloc" val="east"/>
+      <a name="labelloc" val="south"/>
     </comp>
-    <comp lib="12" loc="(1210,1040)" name="IC_74273">
+    <comp lib="13" loc="(1210,1040)" name="IC_74273">
       <a name="label" val="U53"/>
     </comp>
-    <comp lib="12" loc="(1210,670)" name="IC_74273">
+    <comp lib="13" loc="(1210,670)" name="IC_74273">
       <a name="label" val="U54"/>
     </comp>
-    <comp lib="12" loc="(1430,1040)" name="IC_74244"/>
-    <comp lib="12" loc="(1430,670)" name="IC_74244"/>
-    <comp lib="13" loc="(510,520)" name="SN74245">
-      <a name="label" val="U61"/>
+    <comp lib="13" loc="(1430,1040)" name="IC_74244">
+      <a name="label" val="U56"/>
+    </comp>
+    <comp lib="13" loc="(1430,670)" name="IC_74244">
+      <a name="label" val="U55"/>
     </comp>
     <comp lib="8" loc="(955,39)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
