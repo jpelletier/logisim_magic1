@@ -183,10 +183,10 @@ end TCL_Generic;
     <tool lib="1" name="NOR Gate"/>
     <sep/>
     <tool lib="4" name="D Flip-Flop">
-      <a name="appearance" val="logisim_evolution"/>
+      <a name="appearance" val="classic"/>
     </tool>
     <tool lib="4" name="Register">
-      <a name="appearance" val="logisim_evolution"/>
+      <a name="appearance" val="classic"/>
     </tool>
   </toolbar>
   <circuit name="Microcode">
@@ -334,6 +334,9 @@ end TCL_Generic;
     </comp>
     <comp lib="0" loc="(1470,160)" name="Power">
       <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(1470,260)" name="Tunnel">
+      <a name="label" val="nRESET"/>
     </comp>
     <comp lib="0" loc="(150,680)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -642,8 +645,8 @@ end TCL_Generic;
       <a name="fanout" val="8"/>
       <a name="incoming" val="8"/>
     </comp>
-    <comp lib="0" loc="(360,630)" name="Power">
-      <a name="facing" val="south"/>
+    <comp lib="0" loc="(380,650)" name="Tunnel">
+      <a name="label" val="nRESET"/>
     </comp>
     <comp lib="0" loc="(490,940)" name="Ground"/>
     <comp lib="0" loc="(540,570)" name="Splitter">
@@ -902,7 +905,9 @@ fe
     <wire from="(1050,530)" to="(1050,660)"/>
     <wire from="(1300,140)" to="(1470,140)"/>
     <wire from="(1450,180)" to="(1470,180)"/>
+    <wire from="(1450,220)" to="(1450,260)"/>
     <wire from="(1450,220)" to="(1460,220)"/>
+    <wire from="(1450,260)" to="(1470,260)"/>
     <wire from="(1490,220)" to="(1500,220)"/>
     <wire from="(150,680)" to="(240,680)"/>
     <wire from="(150,720)" to="(300,720)"/>
@@ -1021,6 +1026,8 @@ fe
     <wire from="(310,680)" to="(310,900)"/>
     <wire from="(310,680)" to="(340,680)"/>
     <wire from="(310,900)" to="(460,900)"/>
+    <wire from="(360,630)" to="(360,650)"/>
+    <wire from="(360,650)" to="(380,650)"/>
     <wire from="(370,930)" to="(460,930)"/>
     <wire from="(390,530)" to="(520,530)"/>
     <wire from="(390,540)" to="(500,540)"/>

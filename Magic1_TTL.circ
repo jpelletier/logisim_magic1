@@ -445,7 +445,7 @@ end TCL_Generic;
       <a name="inputs" val="4"/>
     </comp>
     <comp lib="1" loc="(990,1250)" name="AND Gate">
-      <a name="inputs" val="5"/>
+      <a name="inputs" val="4"/>
     </comp>
     <comp lib="1" loc="(990,1300)" name="AND Gate">
       <a name="inputs" val="4"/>
@@ -472,7 +472,7 @@ end TCL_Generic;
       <a name="inputs" val="3"/>
     </comp>
     <comp lib="5" loc="(1330,520)" name="Hex Digit Display">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@7fb77abe"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@17bc69ea"/>
     </comp>
     <wire from="(1000,1950)" to="(1000,2000)"/>
     <wire from="(1000,2000)" to="(1010,2000)"/>
@@ -989,16 +989,16 @@ end TCL_Generic;
     <wire from="(840,1720)" to="(840,2020)"/>
     <wire from="(840,1720)" to="(940,1720)"/>
     <wire from="(840,2020)" to="(920,2020)"/>
-    <wire from="(850,1310)" to="(850,1970)"/>
+    <wire from="(850,1310)" to="(850,1670)"/>
     <wire from="(850,1310)" to="(940,1310)"/>
+    <wire from="(850,1670)" to="(850,1970)"/>
+    <wire from="(850,1670)" to="(940,1670)"/>
     <wire from="(850,1970)" to="(920,1970)"/>
     <wire from="(850,670)" to="(1130,670)"/>
     <wire from="(850,670)" to="(850,950)"/>
     <wire from="(850,950)" to="(850,1310)"/>
     <wire from="(850,950)" to="(940,950)"/>
-    <wire from="(870,1650)" to="(870,1670)"/>
-    <wire from="(870,1670)" to="(870,1910)"/>
-    <wire from="(870,1670)" to="(940,1670)"/>
+    <wire from="(870,1650)" to="(870,1910)"/>
     <wire from="(870,1910)" to="(870,1960)"/>
     <wire from="(870,1910)" to="(920,1910)"/>
     <wire from="(870,1960)" to="(870,2010)"/>
@@ -1008,9 +1008,7 @@ end TCL_Generic;
     <wire from="(870,2050)" to="(870,2080)"/>
     <wire from="(870,2050)" to="(920,2050)"/>
     <wire from="(870,2080)" to="(920,2080)"/>
-    <wire from="(880,1250)" to="(880,1260)"/>
-    <wire from="(880,1260)" to="(880,1620)"/>
-    <wire from="(880,1260)" to="(940,1260)"/>
+    <wire from="(880,1250)" to="(880,1620)"/>
     <wire from="(880,1620)" to="(880,1660)"/>
     <wire from="(880,1620)" to="(940,1620)"/>
     <wire from="(880,1660)" to="(880,1700)"/>
@@ -1026,8 +1024,8 @@ end TCL_Generic;
     <wire from="(880,1990)" to="(880,2030)"/>
     <wire from="(880,1990)" to="(920,1990)"/>
     <wire from="(880,2030)" to="(920,2030)"/>
-    <wire from="(890,1250)" to="(890,1290)"/>
-    <wire from="(890,1250)" to="(940,1250)"/>
+    <wire from="(890,1260)" to="(890,1290)"/>
+    <wire from="(890,1260)" to="(940,1260)"/>
     <wire from="(890,1290)" to="(890,1330)"/>
     <wire from="(890,1290)" to="(940,1290)"/>
     <wire from="(890,1330)" to="(890,1610)"/>
@@ -1043,7 +1041,7 @@ end TCL_Generic;
     <wire from="(890,1940)" to="(890,1980)"/>
     <wire from="(890,1940)" to="(920,1940)"/>
     <wire from="(890,1980)" to="(920,1980)"/>
-    <wire from="(890,870)" to="(890,1250)"/>
+    <wire from="(890,870)" to="(890,1260)"/>
     <wire from="(900,1240)" to="(900,1280)"/>
     <wire from="(900,1240)" to="(940,1240)"/>
     <wire from="(900,1280)" to="(900,1600)"/>

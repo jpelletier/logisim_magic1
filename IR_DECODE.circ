@@ -195,10 +195,10 @@ end TCL_Generic;
     <tool lib="1" name="NOR Gate"/>
     <sep/>
     <tool lib="4" name="D Flip-Flop">
-      <a name="appearance" val="logisim_evolution"/>
+      <a name="appearance" val="classic"/>
     </tool>
     <tool lib="4" name="Register">
-      <a name="appearance" val="logisim_evolution"/>
+      <a name="appearance" val="classic"/>
     </tool>
   </toolbar>
   <circuit name="IR_DECODE">
@@ -211,6 +211,7 @@ end TCL_Generic;
     <a name="clabelup" val="east"/>
     <appear>
       <circ-anchor facing="east" height="6" width="6" x="267" y="57"/>
+      <circ-port height="10" pin="1180,150" width="10" x="45" y="355"/>
       <circ-port height="10" pin="1670,720" width="10" x="265" y="535"/>
       <circ-port height="10" pin="1670,860" width="10" x="265" y="235"/>
       <circ-port height="10" pin="1670,890" width="10" x="265" y="215"/>
@@ -220,7 +221,7 @@ end TCL_Generic;
       <circ-port height="10" pin="2180,1500" width="10" x="265" y="195"/>
       <circ-port height="10" pin="2240,1240" width="10" x="265" y="255"/>
       <circ-port height="10" pin="3130,120" width="10" x="265" y="155"/>
-      <circ-port height="10" pin="3130,150" width="10" x="265" y="135"/>
+      <circ-port height="10" pin="3130,920" width="10" x="265" y="135"/>
       <circ-port height="10" pin="3180,1230" width="10" x="265" y="95"/>
       <circ-port height="10" pin="3180,1290" width="10" x="265" y="515"/>
       <circ-port height="10" pin="3180,1330" width="10" x="265" y="315"/>
@@ -242,6 +243,7 @@ end TCL_Generic;
       <circ-port height="8" pin="2840,1180" width="8" x="46" y="276"/>
       <circ-port height="8" pin="310,180" width="8" x="46" y="256"/>
       <circ-port height="8" pin="310,960" width="8" x="46" y="156"/>
+      <circ-port height="8" pin="3130,150" width="8" x="46" y="336"/>
       <circ-port height="8" pin="430,700" width="8" x="46" y="136"/>
       <circ-port height="8" pin="510,460" width="8" x="46" y="56"/>
       <circ-port height="8" pin="510,480" width="8" x="46" y="116"/>
@@ -284,11 +286,13 @@ end TCL_Generic;
       <rect height="4" stroke="none" width="10" x="50" y="258"/>
       <rect height="4" stroke="none" width="10" x="50" y="278"/>
       <rect height="4" stroke="none" width="10" x="50" y="318"/>
+      <rect height="4" stroke="none" width="10" x="50" y="338"/>
+      <rect height="4" stroke="none" width="10" x="50" y="358"/>
       <rect height="4" stroke="none" width="10" x="50" y="58"/>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="254" y="444">nNP</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="104">T</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="124">Z</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="144">L</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="144">L_MSW</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="184">MSW_FLAGS</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="204">IMMVAL</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="224">nEL_CTLBUS</text>
@@ -319,10 +323,21 @@ end TCL_Generic;
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="264">R</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="284">MAR</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="324">nIRQ</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="344">L_INPUT</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="364">L_INT</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="64">CLOCK_SELECT</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="84">nBP_RESET</text>
       <text dominant-baseline="alphabetic" fill="#ffffff" font-family="Courier 10 Pitch" font-size="14" font-weight="bold" text-anchor="middle" x="162" y="585">IR_DECODE</text>
     </appear>
+    <comp lib="0" loc="(1180,150)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="L_INT"/>
+      <a name="output" val="true"/>
+      <a name="radix" val="16"/>
+      <a name="tristate" val="true"/>
+      <a name="width" val="16"/>
+    </comp>
     <comp lib="0" loc="(1250,1800)" name="Splitter">
       <a name="appear" val="center"/>
       <a name="bit0" val="7"/>
@@ -568,7 +583,14 @@ end TCL_Generic;
     <comp lib="0" loc="(3130,150)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="L"/>
+      <a name="label" val="L_INPUT"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(3130,920)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="L_MSW"/>
       <a name="output" val="true"/>
       <a name="radix" val="16"/>
       <a name="tristate" val="true"/>
@@ -751,7 +773,7 @@ end TCL_Generic;
       <a name="text" val="nINT_CTL"/>
     </comp>
     <wire from="(1000,150)" to="(1000,840)"/>
-    <wire from="(1000,150)" to="(2290,150)"/>
+    <wire from="(1000,150)" to="(1180,150)"/>
     <wire from="(1050,280)" to="(1050,740)"/>
     <wire from="(1050,280)" to="(2240,280)"/>
     <wire from="(1050,740)" to="(1150,740)"/>
@@ -1040,7 +1062,7 @@ end TCL_Generic;
     <wire from="(2680,1550)" to="(2800,1550)"/>
     <wire from="(2690,1290)" to="(2800,1290)"/>
     <wire from="(2690,150)" to="(2690,1290)"/>
-    <wire from="(2690,150)" to="(3040,150)"/>
+    <wire from="(2690,150)" to="(3130,150)"/>
     <wire from="(2700,1150)" to="(3060,1150)"/>
     <wire from="(2700,1450)" to="(2700,1680)"/>
     <wire from="(2700,1450)" to="(2800,1450)"/>
@@ -1089,9 +1111,7 @@ end TCL_Generic;
     <wire from="(3020,780)" to="(3190,780)"/>
     <wire from="(3020,820)" to="(3190,820)"/>
     <wire from="(3020,840)" to="(3190,840)"/>
-    <wire from="(3020,880)" to="(3040,880)"/>
-    <wire from="(3040,150)" to="(3040,880)"/>
-    <wire from="(3040,150)" to="(3130,150)"/>
+    <wire from="(3020,880)" to="(3120,880)"/>
     <wire from="(3050,1290)" to="(3180,1290)"/>
     <wire from="(3050,420)" to="(3050,1290)"/>
     <wire from="(3060,1150)" to="(3060,1330)"/>
@@ -1107,6 +1127,8 @@ end TCL_Generic;
     <wire from="(310,960)" to="(570,960)"/>
     <wire from="(3120,1350)" to="(3120,1870)"/>
     <wire from="(3120,1350)" to="(3180,1350)"/>
+    <wire from="(3120,880)" to="(3120,920)"/>
+    <wire from="(3120,920)" to="(3130,920)"/>
     <wire from="(3130,1390)" to="(3130,1880)"/>
     <wire from="(3130,1390)" to="(3180,1390)"/>
     <wire from="(3160,800)" to="(3160,870)"/>
