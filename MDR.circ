@@ -183,10 +183,10 @@ end TCL_Generic;
     <tool lib="1" name="NOR Gate"/>
     <sep/>
     <tool lib="4" name="D Flip-Flop">
-      <a name="appearance" val="classic"/>
+      <a name="appearance" val="logisim_evolution"/>
     </tool>
     <tool lib="4" name="Register">
-      <a name="appearance" val="classic"/>
+      <a name="appearance" val="logisim_evolution"/>
     </tool>
   </toolbar>
   <circuit name="MDR">
@@ -199,16 +199,14 @@ end TCL_Generic;
     <a name="clabelup" val="east"/>
     <appear>
       <circ-anchor facing="east" height="6" width="6" x="267" y="57"/>
+      <circ-port height="10" pin="1580,710" width="10" x="265" y="55"/>
       <circ-port height="10" pin="1710,850" width="10" x="265" y="95"/>
       <circ-port height="10" pin="1710,940" width="10" x="265" y="115"/>
-      <circ-port height="10" pin="490,620" width="10" x="265" y="75"/>
-      <circ-port height="10" pin="500,420" width="10" x="265" y="55"/>
       <circ-port height="8" pin="1350,1210" width="8" x="46" y="136"/>
       <circ-port height="8" pin="1350,610" width="8" x="46" y="116"/>
       <circ-port height="8" pin="1710,890" width="8" x="46" y="156"/>
       <circ-port height="8" pin="1710,980" width="8" x="46" y="176"/>
-      <circ-port height="8" pin="190,480" width="8" x="46" y="76"/>
-      <circ-port height="8" pin="250,540" width="8" x="46" y="96"/>
+      <circ-port height="8" pin="500,420" width="8" x="46" y="76"/>
       <circ-port height="8" pin="540,250" width="8" x="46" y="56"/>
       <circ-port height="8" pin="560,1130" width="8" x="46" y="236"/>
       <circ-port height="8" pin="560,1170" width="8" x="46" y="196"/>
@@ -227,17 +225,13 @@ end TCL_Generic;
       <rect height="3" stroke="none" width="10" x="50" y="259"/>
       <rect height="3" stroke="none" width="10" x="50" y="279"/>
       <rect height="3" stroke="none" width="10" x="50" y="79"/>
-      <rect height="3" stroke="none" width="10" x="50" y="99"/>
       <rect height="4" stroke="none" width="10" x="260" y="118"/>
       <rect height="4" stroke="none" width="10" x="260" y="58"/>
-      <rect height="4" stroke="none" width="10" x="260" y="78"/>
       <rect height="4" stroke="none" width="10" x="260" y="98"/>
       <rect height="4" stroke="none" width="10" x="50" y="58"/>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="104">L</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="124">R</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="64">D</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="84">DBUS</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="104">nRW</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="64">D_OUT</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="124">nE_MDR_HI</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="144">nE_MDR_LO</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="164">nEL_MDR</text>
@@ -248,7 +242,7 @@ end TCL_Generic;
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="264">XL_MDR_HI</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="284">XL_MDR_LO</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="64">Z</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="84">nDMA_ACK</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="84">D_IN</text>
       <text dominant-baseline="alphabetic" fill="#ffffff" font-family="Courier 10 Pitch" font-size="14" font-weight="bold" text-anchor="middle" x="160" y="304">MDR</text>
     </appear>
     <comp lib="0" loc="(1000,230)" name="Ground"/>
@@ -275,8 +269,12 @@ end TCL_Generic;
       <a name="fanout" val="8"/>
       <a name="incoming" val="8"/>
     </comp>
-    <comp lib="0" loc="(1580,710)" name="Tunnel">
-      <a name="label" val="D"/>
+    <comp lib="0" loc="(1580,710)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="D_OUT"/>
+      <a name="output" val="true"/>
+      <a name="radix" val="16"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(1710,850)" name="Pin">
@@ -307,28 +305,10 @@ end TCL_Generic;
       <a name="facing" val="west"/>
       <a name="label" val="nER_MDR"/>
     </comp>
-    <comp lib="0" loc="(190,480)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="label" val="nDMA_ACK"/>
-    </comp>
-    <comp lib="0" loc="(250,540)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="label" val="nRW"/>
-    </comp>
-    <comp lib="0" loc="(490,620)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="label" val="DBUS"/>
-      <a name="output" val="true"/>
-      <a name="radix" val="16"/>
-      <a name="tristate" val="true"/>
-      <a name="width" val="8"/>
-    </comp>
     <comp lib="0" loc="(500,420)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="D"/>
-      <a name="output" val="true"/>
+      <a name="label" val="D_IN"/>
       <a name="radix" val="16"/>
-      <a name="tristate" val="true"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(540,250)" name="Pin">
@@ -353,10 +333,6 @@ end TCL_Generic;
     <comp lib="0" loc="(560,760)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="L_MDR_HI"/>
-    </comp>
-    <comp lib="0" loc="(570,520)" name="Tunnel">
-      <a name="label" val="D"/>
-      <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(580,250)" name="Splitter">
       <a name="appear" val="center"/>
@@ -392,14 +368,8 @@ end TCL_Generic;
     <comp lib="1" loc="(1640,980)" name="NOT Gate">
       <a name="facing" val="west"/>
     </comp>
-    <comp lib="1" loc="(260,480)" name="NOT Gate">
-      <a name="label" val="U12E"/>
-    </comp>
     <comp lib="1" loc="(980,1170)" name="NOT Gate">
       <a name="label" val="U12D"/>
-    </comp>
-    <comp lib="12" loc="(510,520)" name="SN74245">
-      <a name="label" val="U61"/>
     </comp>
     <comp lib="13" loc="(1020,140)" name="IC_74153">
       <a name="label" val="U65"/>
@@ -631,19 +601,8 @@ end TCL_Generic;
     <wire from="(1630,940)" to="(1710,940)"/>
     <wire from="(1670,890)" to="(1710,890)"/>
     <wire from="(1670,980)" to="(1710,980)"/>
-    <wire from="(190,480)" to="(230,480)"/>
-    <wire from="(250,540)" to="(290,540)"/>
-    <wire from="(260,480)" to="(290,480)"/>
-    <wire from="(290,480)" to="(290,520)"/>
-    <wire from="(490,620)" to="(540,620)"/>
-    <wire from="(500,420)" to="(540,420)"/>
-    <wire from="(510,520)" to="(540,520)"/>
-    <wire from="(510,540)" to="(540,540)"/>
+    <wire from="(500,420)" to="(560,420)"/>
     <wire from="(540,250)" to="(580,250)"/>
-    <wire from="(540,420)" to="(540,520)"/>
-    <wire from="(540,420)" to="(560,420)"/>
-    <wire from="(540,520)" to="(570,520)"/>
-    <wire from="(540,540)" to="(540,620)"/>
     <wire from="(560,1130)" to="(1150,1130)"/>
     <wire from="(560,1170)" to="(950,1170)"/>
     <wire from="(560,760)" to="(1150,760)"/>

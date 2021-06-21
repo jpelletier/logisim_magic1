@@ -59,8 +59,6 @@
     </tool>
     <tool name="Counter">
       <a name="appearance" val="logisim_evolution"/>
-      <a name="max" val="0x7"/>
-      <a name="width" val="3"/>
     </tool>
     <tool name="Shift Register">
       <a name="appearance" val="logisim_evolution"/>
@@ -172,10 +170,10 @@ end TCL_Generic;
     <tool lib="1" name="NOR Gate"/>
     <sep/>
     <tool lib="4" name="D Flip-Flop">
-      <a name="appearance" val="classic"/>
+      <a name="appearance" val="logisim_evolution"/>
     </tool>
     <tool lib="4" name="Register">
-      <a name="appearance" val="classic"/>
+      <a name="appearance" val="logisim_evolution"/>
     </tool>
   </toolbar>
   <circuit name="CLOCKS">
@@ -223,6 +221,10 @@ end TCL_Generic;
       <a name="appearance" val="NewPins"/>
       <a name="label" val="MANUAL_CLK"/>
     </comp>
+    <comp lib="0" loc="(410,90)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="nHALT"/>
+    </comp>
     <comp lib="0" loc="(420,130)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="CLOCK_SELECT"/>
@@ -244,7 +246,6 @@ end TCL_Generic;
       <a name="facing" val="south"/>
     </comp>
     <comp lib="0" loc="(490,290)" name="Ground"/>
-    <comp lib="0" loc="(540,180)" name="Ground"/>
     <comp lib="0" loc="(580,320)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="nWAIT"/>
@@ -268,6 +269,7 @@ end TCL_Generic;
     </comp>
     <comp lib="1" loc="(1580,240)" name="AND Gate"/>
     <comp lib="1" loc="(1670,210)" name="OR Gate"/>
+    <comp lib="1" loc="(480,90)" name="NOT Gate"/>
     <comp lib="1" loc="(570,400)" name="AND Gate">
       <a name="label" val="U4B"/>
     </comp>
@@ -405,6 +407,7 @@ end TCL_Generic;
     <wire from="(280,230)" to="(460,230)"/>
     <wire from="(300,240)" to="(300,300)"/>
     <wire from="(300,240)" to="(460,240)"/>
+    <wire from="(410,90)" to="(450,90)"/>
     <wire from="(420,130)" to="(490,130)"/>
     <wire from="(420,380)" to="(520,380)"/>
     <wire from="(420,420)" to="(500,420)"/>
@@ -417,13 +420,13 @@ end TCL_Generic;
     <wire from="(440,280)" to="(440,300)"/>
     <wire from="(440,280)" to="(460,280)"/>
     <wire from="(480,160)" to="(480,200)"/>
+    <wire from="(480,90)" to="(500,90)"/>
     <wire from="(490,130)" to="(490,140)"/>
     <wire from="(490,160)" to="(490,200)"/>
-    <wire from="(500,180)" to="(500,200)"/>
-    <wire from="(500,180)" to="(540,180)"/>
     <wire from="(500,420)" to="(500,450)"/>
     <wire from="(500,420)" to="(520,420)"/>
     <wire from="(500,450)" to="(920,450)"/>
+    <wire from="(500,90)" to="(500,200)"/>
     <wire from="(520,240)" to="(810,240)"/>
     <wire from="(520,280)" to="(690,280)"/>
     <wire from="(570,400)" to="(700,400)"/>

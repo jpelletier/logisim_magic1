@@ -206,6 +206,7 @@ end TCL_Generic;
       <circ-port height="8" pin="370,770" width="8" x="46" y="356"/>
       <circ-port height="8" pin="370,870" width="8" x="46" y="176"/>
       <circ-port height="8" pin="370,940" width="8" x="46" y="376"/>
+      <circ-port height="8" pin="70,1630" width="8" x="266" y="416"/>
       <rect fill="none" height="400" stroke="#000000" stroke-width="2" width="200" x="60" y="50"/>
       <rect height="20" stroke="none" width="200" x="60" y="430"/>
       <rect height="3" stroke="none" width="10" x="50" y="119"/>
@@ -226,8 +227,10 @@ end TCL_Generic;
       <rect height="3" stroke="none" width="10" x="50" y="419"/>
       <rect height="3" stroke="none" width="10" x="50" y="79"/>
       <rect height="3" stroke="none" width="10" x="50" y="99"/>
+      <rect height="4" stroke="none" width="10" x="259" y="418"/>
       <rect height="4" stroke="none" width="10" x="260" y="58"/>
       <rect height="4" stroke="none" width="10" x="50" y="58"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="254" y="424">nRESET</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="64">L</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="104">L_B_HI</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="124">L_SSP</text>
@@ -376,6 +379,10 @@ end TCL_Generic;
     <comp lib="0" loc="(430,850)" name="Power">
       <a name="facing" val="west"/>
     </comp>
+    <comp lib="0" loc="(70,1630)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="nRESET"/>
+    </comp>
     <comp lib="0" loc="(730,110)" name="Splitter">
       <a name="appear" val="center"/>
       <a name="bit1" val="0"/>
@@ -405,6 +412,7 @@ end TCL_Generic;
       <a name="tristate" val="true"/>
       <a name="width" val="16"/>
     </comp>
+    <comp lib="1" loc="(140,1630)" name="NOT Gate"/>
     <comp lib="1" loc="(470,1120)" name="NOT Gate"/>
     <comp lib="1" loc="(470,1290)" name="NOT Gate"/>
     <comp lib="1" loc="(470,180)" name="NOT Gate"/>
@@ -513,8 +521,28 @@ end TCL_Generic;
     <wire from="(130,670)" to="(430,670)"/>
     <wire from="(130,830)" to="(130,1000)"/>
     <wire from="(130,830)" to="(430,830)"/>
+    <wire from="(140,1630)" to="(170,1630)"/>
     <wire from="(160,100)" to="(200,100)"/>
     <wire from="(160,110)" to="(190,110)"/>
+    <wire from="(170,1060)" to="(170,1240)"/>
+    <wire from="(170,1060)" to="(460,1060)"/>
+    <wire from="(170,1240)" to="(170,1410)"/>
+    <wire from="(170,1240)" to="(460,1240)"/>
+    <wire from="(170,1410)" to="(170,1630)"/>
+    <wire from="(170,1410)" to="(460,1410)"/>
+    <wire from="(170,160)" to="(170,300)"/>
+    <wire from="(170,160)" to="(460,160)"/>
+    <wire from="(170,1630)" to="(460,1630)"/>
+    <wire from="(170,300)" to="(170,430)"/>
+    <wire from="(170,300)" to="(460,300)"/>
+    <wire from="(170,430)" to="(170,570)"/>
+    <wire from="(170,430)" to="(460,430)"/>
+    <wire from="(170,570)" to="(170,740)"/>
+    <wire from="(170,570)" to="(460,570)"/>
+    <wire from="(170,740)" to="(170,890)"/>
+    <wire from="(170,740)" to="(460,740)"/>
+    <wire from="(170,890)" to="(170,1060)"/>
+    <wire from="(170,890)" to="(460,890)"/>
     <wire from="(190,110)" to="(190,240)"/>
     <wire from="(190,240)" to="(190,510)"/>
     <wire from="(190,240)" to="(430,240)"/>
@@ -543,6 +571,8 @@ end TCL_Generic;
     <wire from="(390,1440)" to="(390,1550)"/>
     <wire from="(390,1440)" to="(750,1440)"/>
     <wire from="(390,1550)" to="(430,1550)"/>
+    <wire from="(460,1610)" to="(460,1630)"/>
+    <wire from="(460,730)" to="(460,740)"/>
     <wire from="(470,1120)" to="(550,1120)"/>
     <wire from="(470,1290)" to="(550,1290)"/>
     <wire from="(470,180)" to="(550,180)"/>
@@ -586,6 +616,7 @@ end TCL_Generic;
     <wire from="(690,110)" to="(690,240)"/>
     <wire from="(690,110)" to="(710,110)"/>
     <wire from="(690,240)" to="(690,510)"/>
+    <wire from="(70,1630)" to="(110,1630)"/>
     <wire from="(730,110)" to="(750,110)"/>
     <wire from="(750,1000)" to="(750,1180)"/>
     <wire from="(750,110)" to="(750,670)"/>

@@ -206,7 +206,7 @@ end TCL_Generic;
       <circ-port height="10" pin="1090,910" width="10" x="265" y="155"/>
       <circ-port height="10" pin="1350,460" width="10" x="265" y="235"/>
       <circ-port height="10" pin="1640,400" width="10" x="265" y="215"/>
-      <circ-port height="10" pin="1880,820" width="10" x="45" y="575"/>
+      <circ-port height="10" pin="1880,870" width="10" x="265" y="255"/>
       <circ-port height="10" pin="1890,630" width="10" x="265" y="95"/>
       <circ-port height="10" pin="1920,360" width="10" x="265" y="195"/>
       <circ-port height="10" pin="480,210" width="10" x="265" y="75"/>
@@ -227,7 +227,9 @@ end TCL_Generic;
       <circ-port height="8" pin="1800,510" width="8" x="46" y="476"/>
       <circ-port height="8" pin="1800,530" width="8" x="46" y="336"/>
       <circ-port height="8" pin="1830,1080" width="8" x="46" y="556"/>
+      <circ-port height="8" pin="1880,820" width="8" x="46" y="576"/>
       <circ-port height="8" pin="1920,1050" width="8" x="46" y="416"/>
+      <circ-port height="8" pin="1920,440" width="8" x="266" y="276"/>
       <circ-port height="8" pin="220,490" width="8" x="46" y="456"/>
       <circ-port height="8" pin="230,650" width="8" x="46" y="156"/>
       <circ-port height="8" pin="250,610" width="8" x="46" y="176"/>
@@ -253,6 +255,7 @@ end TCL_Generic;
       <rect height="3" stroke="none" width="10" x="260" y="179"/>
       <rect height="3" stroke="none" width="10" x="260" y="199"/>
       <rect height="3" stroke="none" width="10" x="260" y="219"/>
+      <rect height="3" stroke="none" width="10" x="260" y="278"/>
       <rect height="3" stroke="none" width="10" x="260" y="79"/>
       <rect height="3" stroke="none" width="10" x="260" y="99"/>
       <rect height="3" stroke="none" width="10" x="50" y="119"/>
@@ -284,6 +287,7 @@ end TCL_Generic;
       <rect height="3" stroke="none" width="10" x="50" y="79"/>
       <rect height="3" stroke="none" width="10" x="50" y="99"/>
       <rect height="4" stroke="none" width="10" x="260" y="238"/>
+      <rect height="4" stroke="none" width="10" x="260" y="258"/>
       <rect height="4" stroke="none" width="10" x="260" y="58"/>
       <rect height="4" stroke="none" width="10" x="50" y="178"/>
       <rect height="4" stroke="none" width="10" x="50" y="198"/>
@@ -295,9 +299,11 @@ end TCL_Generic;
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="144">nSTOP_CLK</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="164">nDMA_REQ</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="184">FP_RAM</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="204">MEMORY</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="204">MEMORY_OUT</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="224">nFP_WRITE</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="244">FP_L</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="264">DBUS_OUT</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="283">MEMORY_IN</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="64">CLOCK_SELECT</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="84">nBP_RESET</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="104">INIT_INST</text>
@@ -324,7 +330,7 @@ end TCL_Generic;
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="524">nNP</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="544">nNW</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="564">A</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="584">DBUS</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="584">DBUS_IN</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="604">nIRQ5</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="624">nIRQ4</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="64">MEMREF</text>
@@ -589,7 +595,14 @@ end TCL_Generic;
     <comp lib="0" loc="(1880,820)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="DBUS"/>
+      <a name="label" val="DBUS_IN"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(1880,870)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="DBUS_OUT"/>
       <a name="output" val="true"/>
       <a name="radix" val="16"/>
       <a name="tristate" val="true"/>
@@ -613,8 +626,14 @@ end TCL_Generic;
     <comp lib="0" loc="(1920,360)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="MEMORY"/>
+      <a name="label" val="MEMORY_OUT"/>
       <a name="output" val="true"/>
+      <a name="tristate" val="true"/>
+    </comp>
+    <comp lib="0" loc="(1920,440)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="MEMORY_IN"/>
     </comp>
     <comp lib="0" loc="(220,490)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -897,7 +916,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(1020,890)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@51407c54"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@32ff6f84"/>
       <a name="number" val="3"/>
     </comp>
     <comp lib="5" loc="(1040,1000)" name="LED">
@@ -1011,7 +1030,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(1260,890)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@34b0978c"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@6675e448"/>
     </comp>
     <comp lib="5" loc="(1280,1000)" name="LED">
       <a name="facing" val="north"/>
@@ -1024,7 +1043,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(1280,490)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@8861e7a"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@57990bed"/>
       <a name="number" val="4"/>
     </comp>
     <comp lib="5" loc="(1280,800)" name="LED">
@@ -1256,7 +1275,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(720,1190)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@3ddf9631"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@5550df94"/>
       <a name="number" val="22"/>
     </comp>
     <comp lib="5" loc="(720,530)" name="LED">
@@ -1388,7 +1407,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(870,230)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@6f2fef02"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@1c1a09f5"/>
       <a name="number" val="3"/>
     </comp>
     <comp lib="5" loc="(880,1000)" name="LED">
@@ -1609,10 +1628,10 @@ end TCL_Generic;
     <wire from="(1330,780)" to="(1380,780)"/>
     <wire from="(1350,870)" to="(1670,870)"/>
     <wire from="(1380,780)" to="(1380,820)"/>
-    <wire from="(1380,820)" to="(1770,820)"/>
+    <wire from="(1380,820)" to="(1780,820)"/>
     <wire from="(1530,510)" to="(1530,770)"/>
     <wire from="(1550,420)" to="(1840,420)"/>
-    <wire from="(1550,440)" to="(1880,440)"/>
+    <wire from="(1550,440)" to="(1920,440)"/>
     <wire from="(1550,460)" to="(1580,460)"/>
     <wire from="(1550,480)" to="(1570,480)"/>
     <wire from="(1550,500)" to="(1660,500)"/>
@@ -1627,7 +1646,7 @@ end TCL_Generic;
     <wire from="(1680,900)" to="(2050,900)"/>
     <wire from="(1690,1050)" to="(1690,1160)"/>
     <wire from="(1690,1050)" to="(1840,1050)"/>
-    <wire from="(1690,870)" to="(1770,870)"/>
+    <wire from="(1690,870)" to="(1880,870)"/>
     <wire from="(1700,1170)" to="(1730,1170)"/>
     <wire from="(1710,610)" to="(1740,610)"/>
     <wire from="(1730,1080)" to="(1730,1170)"/>
@@ -1635,11 +1654,9 @@ end TCL_Generic;
     <wire from="(1740,570)" to="(1740,610)"/>
     <wire from="(1740,610)" to="(1770,610)"/>
     <wire from="(1750,650)" to="(1770,650)"/>
-    <wire from="(1770,1200)" to="(1780,1200)"/>
-    <wire from="(1770,820)" to="(1770,870)"/>
-    <wire from="(1770,820)" to="(1880,820)"/>
-    <wire from="(1770,870)" to="(1770,1200)"/>
     <wire from="(1780,360)" to="(1830,360)"/>
+    <wire from="(1780,820)" to="(1780,1200)"/>
+    <wire from="(1780,820)" to="(1880,820)"/>
     <wire from="(1800,510)" to="(1810,510)"/>
     <wire from="(1800,530)" to="(1960,530)"/>
     <wire from="(1810,510)" to="(1810,560)"/>
@@ -1651,9 +1668,7 @@ end TCL_Generic;
     <wire from="(1840,420)" to="(1840,470)"/>
     <wire from="(1840,470)" to="(1840,1050)"/>
     <wire from="(1840,470)" to="(1860,470)"/>
-    <wire from="(1850,360)" to="(1880,360)"/>
-    <wire from="(1880,360)" to="(1880,440)"/>
-    <wire from="(1880,360)" to="(1920,360)"/>
+    <wire from="(1850,360)" to="(1920,360)"/>
     <wire from="(1890,1050)" to="(1920,1050)"/>
     <wire from="(190,1050)" to="(430,1050)"/>
     <wire from="(1920,490)" to="(1960,490)"/>

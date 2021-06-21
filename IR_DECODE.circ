@@ -195,10 +195,10 @@ end TCL_Generic;
     <tool lib="1" name="NOR Gate"/>
     <sep/>
     <tool lib="4" name="D Flip-Flop">
-      <a name="appearance" val="classic"/>
+      <a name="appearance" val="logisim_evolution"/>
     </tool>
     <tool lib="4" name="Register">
-      <a name="appearance" val="classic"/>
+      <a name="appearance" val="logisim_evolution"/>
     </tool>
   </toolbar>
   <circuit name="IR_DECODE">
@@ -245,9 +245,9 @@ end TCL_Generic;
       <circ-port height="8" pin="310,960" width="8" x="46" y="156"/>
       <circ-port height="8" pin="3130,150" width="8" x="46" y="336"/>
       <circ-port height="8" pin="430,700" width="8" x="46" y="136"/>
-      <circ-port height="8" pin="510,460" width="8" x="46" y="56"/>
-      <circ-port height="8" pin="510,480" width="8" x="46" y="116"/>
-      <circ-port height="8" pin="510,540" width="8" x="46" y="76"/>
+      <circ-port height="8" pin="460,480" width="8" x="46" y="56"/>
+      <circ-port height="8" pin="460,500" width="8" x="46" y="116"/>
+      <circ-port height="8" pin="460,560" width="8" x="46" y="76"/>
       <circ-port height="8" pin="930,680" width="8" x="46" y="236"/>
       <rect fill="none" height="540" stroke="#000000" stroke-width="2" width="200" x="60" y="50"/>
       <rect height="20" stroke="none" width="200" x="60" y="570"/>
@@ -718,16 +718,16 @@ end TCL_Generic;
       <a name="appearance" val="NewPins"/>
       <a name="label" val="nSTOP_CLK"/>
     </comp>
-    <comp lib="0" loc="(510,460)" name="Pin">
+    <comp lib="0" loc="(460,480)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="CLOCK_SELECT"/>
       <a name="width" val="2"/>
     </comp>
-    <comp lib="0" loc="(510,480)" name="Pin">
+    <comp lib="0" loc="(460,500)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="MANUAL_CLK"/>
     </comp>
-    <comp lib="0" loc="(510,540)" name="Pin">
+    <comp lib="0" loc="(460,560)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="nBP_RESET"/>
     </comp>
@@ -832,7 +832,7 @@ end TCL_Generic;
     <wire from="(1370,660)" to="(1510,660)"/>
     <wire from="(1370,680)" to="(1410,680)"/>
     <wire from="(1370,700)" to="(1490,700)"/>
-    <wire from="(1370,720)" to="(1670,720)"/>
+    <wire from="(1370,720)" to="(1440,720)"/>
     <wire from="(1370,740)" to="(1890,740)"/>
     <wire from="(1370,760)" to="(1400,760)"/>
     <wire from="(1370,780)" to="(1450,780)"/>
@@ -861,6 +861,8 @@ end TCL_Generic;
     <wire from="(1420,940)" to="(1420,950)"/>
     <wire from="(1420,940)" to="(1450,940)"/>
     <wire from="(1420,950)" to="(2720,950)"/>
+    <wire from="(1440,340)" to="(1440,720)"/>
+    <wire from="(1440,720)" to="(1670,720)"/>
     <wire from="(1470,800)" to="(1610,800)"/>
     <wire from="(1470,850)" to="(1490,850)"/>
     <wire from="(1470,890)" to="(1500,890)"/>
@@ -1169,6 +1171,9 @@ end TCL_Generic;
     <wire from="(440,1870)" to="(3120,1870)"/>
     <wire from="(440,820)" to="(440,1870)"/>
     <wire from="(440,820)" to="(570,820)"/>
+    <wire from="(460,480)" to="(570,480)"/>
+    <wire from="(460,500)" to="(570,500)"/>
+    <wire from="(460,560)" to="(570,560)"/>
     <wire from="(480,1080)" to="(570,1080)"/>
     <wire from="(480,610)" to="(480,1080)"/>
     <wire from="(480,610)" to="(820,610)"/>
@@ -1182,9 +1187,6 @@ end TCL_Generic;
     <wire from="(510,1140)" to="(510,1550)"/>
     <wire from="(510,1140)" to="(570,1140)"/>
     <wire from="(510,1550)" to="(580,1550)"/>
-    <wire from="(510,460)" to="(570,460)"/>
-    <wire from="(510,480)" to="(570,480)"/>
-    <wire from="(510,540)" to="(570,540)"/>
     <wire from="(510,640)" to="(510,1100)"/>
     <wire from="(510,640)" to="(850,640)"/>
     <wire from="(520,1800)" to="(1090,1800)"/>
@@ -1194,14 +1196,17 @@ end TCL_Generic;
     <wire from="(530,880)" to="(530,1790)"/>
     <wire from="(530,880)" to="(570,880)"/>
     <wire from="(540,1820)" to="(1230,1820)"/>
-    <wire from="(540,520)" to="(540,700)"/>
+    <wire from="(540,420)" to="(3050,420)"/>
+    <wire from="(540,420)" to="(540,520)"/>
     <wire from="(540,520)" to="(570,520)"/>
+    <wire from="(540,540)" to="(540,700)"/>
+    <wire from="(540,540)" to="(570,540)"/>
     <wire from="(540,700)" to="(1150,700)"/>
     <wire from="(540,980)" to="(540,1820)"/>
     <wire from="(540,980)" to="(570,980)"/>
-    <wire from="(560,420)" to="(3050,420)"/>
-    <wire from="(560,420)" to="(560,500)"/>
-    <wire from="(560,500)" to="(570,500)"/>
+    <wire from="(550,340)" to="(1440,340)"/>
+    <wire from="(550,340)" to="(550,460)"/>
+    <wire from="(550,460)" to="(570,460)"/>
     <wire from="(580,1570)" to="(1500,1570)"/>
     <wire from="(790,460)" to="(850,460)"/>
     <wire from="(790,480)" to="(840,480)"/>
