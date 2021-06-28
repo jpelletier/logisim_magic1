@@ -181,10 +181,10 @@ end TCL_Generic;
     <tool lib="1" name="NOR Gate"/>
     <sep/>
     <tool lib="4" name="D Flip-Flop">
-      <a name="appearance" val="classic"/>
+      <a name="appearance" val="logisim_evolution"/>
     </tool>
     <tool lib="4" name="Register">
-      <a name="appearance" val="classic"/>
+      <a name="appearance" val="logisim_evolution"/>
     </tool>
   </toolbar>
   <circuit name="SN74381">
@@ -472,7 +472,7 @@ end TCL_Generic;
       <a name="inputs" val="3"/>
     </comp>
     <comp lib="5" loc="(1330,520)" name="Hex Digit Display">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@17bc69ea"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@7657709a"/>
     </comp>
     <wire from="(1000,1950)" to="(1000,2000)"/>
     <wire from="(1000,2000)" to="(1010,2000)"/>
@@ -1688,7 +1688,7 @@ end TCL_Generic;
     <comp lib="0" loc="(1020,190)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="D"/>
+      <a name="label" val="D_OUT"/>
       <a name="output" val="true"/>
       <a name="radix" val="16"/>
       <a name="tristate" val="true"/>
@@ -1712,6 +1712,13 @@ end TCL_Generic;
       <a name="radix" val="16"/>
       <a name="width" val="15"/>
     </comp>
+    <comp lib="0" loc="(980,410)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="D_IN"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="8"/>
+    </comp>
     <comp lib="1" loc="(280,150)" name="NOT Gate"/>
     <comp lib="1" loc="(280,190)" name="NOT Gate"/>
     <comp lib="1" loc="(280,90)" name="NOT Gate"/>
@@ -1725,7 +1732,7 @@ end TCL_Generic;
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="U2"/>
       <a name="labelvisible" val="true"/>
-      <a name="trigger" val="low"/>
+      <a name="trigger" val="high"/>
     </comp>
     <wire from="(170,150)" to="(250,150)"/>
     <wire from="(170,190)" to="(250,190)"/>
@@ -1749,9 +1756,7 @@ end TCL_Generic;
     <wire from="(550,410)" to="(980,410)"/>
     <wire from="(850,190)" to="(890,190)"/>
     <wire from="(900,200)" to="(900,370)"/>
-    <wire from="(910,190)" to="(980,190)"/>
-    <wire from="(980,190)" to="(1020,190)"/>
-    <wire from="(980,190)" to="(980,410)"/>
+    <wire from="(910,190)" to="(1020,190)"/>
   </circuit>
   <circuit name="ROM27256">
     <a name="appearance" val="logisim_evolution"/>
@@ -2698,5 +2703,97 @@ end TCL_Generic;
     <wire from="(930,2010)" to="(930,2270)"/>
     <wire from="(940,1990)" to="(940,2480)"/>
     <wire from="(940,1990)" to="(980,1990)"/>
+  </circuit>
+  <circuit name="REVERSE16">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="REVERSE16"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="circuitvhdlpath" val=""/>
+    <a name="clabel" val=""/>
+    <a name="clabelfont" val="SansSerif bold 16"/>
+    <a name="clabelup" val="east"/>
+    <comp lib="0" loc="(170,130)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="MY_IN"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(170,130)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="fanout" val="16"/>
+      <a name="incoming" val="16"/>
+    </comp>
+    <comp lib="0" loc="(210,130)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="MY_OUT"/>
+      <a name="output" val="true"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(210,130)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="bit0" val="15"/>
+      <a name="bit1" val="14"/>
+      <a name="bit10" val="5"/>
+      <a name="bit11" val="4"/>
+      <a name="bit12" val="3"/>
+      <a name="bit13" val="2"/>
+      <a name="bit14" val="1"/>
+      <a name="bit15" val="0"/>
+      <a name="bit2" val="13"/>
+      <a name="bit3" val="12"/>
+      <a name="bit4" val="11"/>
+      <a name="bit5" val="10"/>
+      <a name="bit6" val="9"/>
+      <a name="bit7" val="8"/>
+      <a name="bit8" val="7"/>
+      <a name="bit9" val="6"/>
+      <a name="facing" val="west"/>
+      <a name="fanout" val="16"/>
+      <a name="incoming" val="16"/>
+    </comp>
+  </circuit>
+  <circuit name="REVERSE8">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="REVERSE8"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="circuitvhdlpath" val=""/>
+    <a name="clabel" val=""/>
+    <a name="clabelfont" val="SansSerif bold 16"/>
+    <a name="clabelup" val="east"/>
+    <comp lib="0" loc="(150,90)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="MY_IN"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(150,90)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="0" loc="(190,90)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="MY_OUT"/>
+      <a name="output" val="true"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(190,90)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="bit0" val="7"/>
+      <a name="bit1" val="6"/>
+      <a name="bit2" val="5"/>
+      <a name="bit3" val="4"/>
+      <a name="bit4" val="3"/>
+      <a name="bit5" val="2"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="0"/>
+      <a name="facing" val="west"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
   </circuit>
 </project>

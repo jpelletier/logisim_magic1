@@ -202,6 +202,7 @@ end TCL_Generic;
       <circ-port height="10" pin="1580,710" width="10" x="265" y="55"/>
       <circ-port height="10" pin="1710,850" width="10" x="265" y="95"/>
       <circ-port height="10" pin="1710,940" width="10" x="265" y="115"/>
+      <circ-port height="10" pin="1800,1050" width="10" x="265" y="65"/>
       <circ-port height="8" pin="1350,1210" width="8" x="46" y="136"/>
       <circ-port height="8" pin="1350,610" width="8" x="46" y="116"/>
       <circ-port height="8" pin="1710,890" width="8" x="46" y="156"/>
@@ -305,6 +306,13 @@ end TCL_Generic;
       <a name="facing" val="west"/>
       <a name="label" val="nER_MDR"/>
     </comp>
+    <comp lib="0" loc="(1800,1050)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="16"/>
+    </comp>
     <comp lib="0" loc="(500,420)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="D_IN"/>
@@ -371,6 +379,7 @@ end TCL_Generic;
     <comp lib="1" loc="(980,1170)" name="NOT Gate">
       <a name="label" val="U12D"/>
     </comp>
+    <comp lib="12" loc="(1800,1050)" name="REVERSE16"/>
     <comp lib="13" loc="(1020,140)" name="IC_74153">
       <a name="label" val="U65"/>
       <a name="labelloc" val="south"/>
@@ -540,7 +549,7 @@ end TCL_Generic;
     <wire from="(1320,1120)" to="(1370,1120)"/>
     <wire from="(1330,1100)" to="(1330,1110)"/>
     <wire from="(1330,1110)" to="(1370,1110)"/>
-    <wire from="(1330,940)" to="(1580,940)"/>
+    <wire from="(1330,940)" to="(1540,940)"/>
     <wire from="(1340,1090)" to="(1340,1100)"/>
     <wire from="(1340,1100)" to="(1370,1100)"/>
     <wire from="(1350,1080)" to="(1350,1090)"/>
@@ -589,6 +598,9 @@ end TCL_Generic;
     <wire from="(1520,740)" to="(1520,750)"/>
     <wire from="(1520,740)" to="(1530,740)"/>
     <wire from="(1520,750)" to="(1520,1120)"/>
+    <wire from="(1540,1050)" to="(1580,1050)"/>
+    <wire from="(1540,940)" to="(1540,1050)"/>
+    <wire from="(1540,940)" to="(1580,940)"/>
     <wire from="(1550,710)" to="(1580,710)"/>
     <wire from="(1580,850)" to="(1580,940)"/>
     <wire from="(1580,850)" to="(1610,850)"/>

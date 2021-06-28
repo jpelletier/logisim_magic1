@@ -203,7 +203,7 @@ end TCL_Generic;
     <appear>
       <circ-anchor facing="east" height="6" width="6" x="267" y="57"/>
       <circ-port height="10" pin="1030,960" width="10" x="265" y="115"/>
-      <circ-port height="10" pin="1090,910" width="10" x="265" y="155"/>
+      <circ-port height="10" pin="1240,660" width="10" x="265" y="155"/>
       <circ-port height="10" pin="1350,460" width="10" x="265" y="235"/>
       <circ-port height="10" pin="1640,400" width="10" x="265" y="215"/>
       <circ-port height="10" pin="1880,870" width="10" x="265" y="255"/>
@@ -395,14 +395,18 @@ end TCL_Generic;
       <a name="facing" val="west"/>
       <a name="label" val="MSWZ"/>
     </comp>
-    <comp lib="0" loc="(1090,910)" name="Pin">
+    <comp lib="0" loc="(1100,870)" name="Tunnel">
+      <a name="label" val="SEL_DEV_MEM"/>
+    </comp>
+    <comp lib="0" loc="(1220,660)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+      <a name="pull" val="1"/>
+    </comp>
+    <comp lib="0" loc="(1240,660)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="nDMA_REQ"/>
       <a name="output" val="true"/>
-    </comp>
-    <comp lib="0" loc="(1100,870)" name="Tunnel">
-      <a name="label" val="SEL_DEV_MEM"/>
     </comp>
     <comp lib="0" loc="(1330,1080)" name="Splitter">
       <a name="appear" val="right"/>
@@ -916,7 +920,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(1020,890)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@32ff6f84"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@67035409"/>
       <a name="number" val="3"/>
     </comp>
     <comp lib="5" loc="(1040,1000)" name="LED">
@@ -1030,7 +1034,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(1260,890)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@6675e448"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@4495d131"/>
     </comp>
     <comp lib="5" loc="(1280,1000)" name="LED">
       <a name="facing" val="north"/>
@@ -1043,7 +1047,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(1280,490)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@57990bed"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@7d20ac7e"/>
       <a name="number" val="4"/>
     </comp>
     <comp lib="5" loc="(1280,800)" name="LED">
@@ -1275,7 +1279,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(720,1190)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@5550df94"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@6acf5edb"/>
       <a name="number" val="22"/>
     </comp>
     <comp lib="5" loc="(720,530)" name="LED">
@@ -1407,7 +1411,7 @@ end TCL_Generic;
       <a name="labelloc" val="south"/>
     </comp>
     <comp lib="5" loc="(870,230)" name="DipSwitch">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@1c1a09f5"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@1711ec97"/>
       <a name="number" val="3"/>
     </comp>
     <comp lib="5" loc="(880,1000)" name="LED">
@@ -1614,11 +1618,8 @@ end TCL_Generic;
     <wire from="(1040,490)" to="(1080,490)"/>
     <wire from="(1040,870)" to="(1040,890)"/>
     <wire from="(1040,870)" to="(1100,870)"/>
-    <wire from="(1050,880)" to="(1050,890)"/>
-    <wire from="(1050,880)" to="(1070,880)"/>
-    <wire from="(1070,880)" to="(1070,910)"/>
-    <wire from="(1070,910)" to="(1090,910)"/>
     <wire from="(1080,510)" to="(1080,530)"/>
+    <wire from="(1220,660)" to="(1240,660)"/>
     <wire from="(1290,480)" to="(1290,490)"/>
     <wire from="(1300,480)" to="(1300,490)"/>
     <wire from="(1310,480)" to="(1310,490)"/>
