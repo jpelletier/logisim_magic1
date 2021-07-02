@@ -236,6 +236,7 @@ end TCL_Generic;
       <circ-port height="8" pin="1970,420" width="8" x="46" y="156"/>
       <circ-port height="8" pin="370,990" width="8" x="46" y="216"/>
       <circ-port height="8" pin="420,890" width="8" x="46" y="196"/>
+      <circ-port height="8" pin="420,930" width="8" x="46" y="276"/>
       <circ-port height="8" pin="710,1460" width="8" x="46" y="236"/>
       <circ-port height="8" pin="710,1600" width="8" x="46" y="256"/>
       <circ-port height="8" pin="720,830" width="8" x="46" y="176"/>
@@ -288,6 +289,7 @@ end TCL_Generic;
       <rect height="3" stroke="none" width="10" x="50" y="219"/>
       <rect height="3" stroke="none" width="10" x="50" y="239"/>
       <rect height="3" stroke="none" width="10" x="50" y="259"/>
+      <rect height="3" stroke="none" width="10" x="50" y="278"/>
       <rect height="4" stroke="none" width="10" x="50" y="118"/>
       <rect height="4" stroke="none" width="10" x="50" y="158"/>
       <rect height="4" stroke="none" width="10" x="50" y="178"/>
@@ -345,6 +347,7 @@ end TCL_Generic;
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="224">FAULT_PEN..</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="244">MSWM</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="264">LATCH_SZ</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="283">CLKS</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="64">IR</text>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="84">EL</text>
       <text dominant-baseline="alphabetic" fill="#ffffff" font-family="Courier 10 Pitch" font-size="14" font-weight="bold" text-anchor="middle" x="160" y="904">Field_Decode</text>
@@ -678,6 +681,10 @@ end TCL_Generic;
     <comp lib="0" loc="(420,890)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="nCLKS"/>
+    </comp>
+    <comp lib="0" loc="(420,930)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="CLKS"/>
     </comp>
     <comp lib="0" loc="(500,1130)" name="NoConnect"/>
     <comp lib="0" loc="(510,1130)" name="NoConnect"/>
@@ -1129,10 +1136,11 @@ end TCL_Generic;
     <wire from="(410,1010)" to="(510,1010)"/>
     <wire from="(410,1060)" to="(410,1080)"/>
     <wire from="(410,1080)" to="(480,1080)"/>
-    <wire from="(420,890)" to="(440,890)"/>
+    <wire from="(420,890)" to="(900,890)"/>
+    <wire from="(420,930)" to="(440,930)"/>
     <wire from="(440,1100)" to="(480,1100)"/>
-    <wire from="(440,890)" to="(440,1100)"/>
-    <wire from="(440,890)" to="(820,890)"/>
+    <wire from="(440,930)" to="(440,1100)"/>
+    <wire from="(440,930)" to="(820,930)"/>
     <wire from="(450,1090)" to="(480,1090)"/>
     <wire from="(450,990)" to="(450,1090)"/>
     <wire from="(450,990)" to="(810,990)"/>
@@ -1198,8 +1206,7 @@ end TCL_Generic;
     <wire from="(820,1100)" to="(850,1100)"/>
     <wire from="(820,400)" to="(820,450)"/>
     <wire from="(820,400)" to="(830,400)"/>
-    <wire from="(820,890)" to="(820,1100)"/>
-    <wire from="(820,890)" to="(900,890)"/>
+    <wire from="(820,930)" to="(820,1100)"/>
     <wire from="(830,1010)" to="(830,1080)"/>
     <wire from="(830,1080)" to="(850,1080)"/>
     <wire from="(830,830)" to="(930,830)"/>

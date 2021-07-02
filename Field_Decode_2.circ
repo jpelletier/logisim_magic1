@@ -644,11 +644,11 @@ end TCL_Generic;
     <comp lib="1" loc="(650,440)" name="OR Gate">
       <a name="label" val="U61A"/>
     </comp>
-    <comp lib="1" loc="(650,540)" name="OR Gate">
-      <a name="label" val="U43D"/>
-    </comp>
     <comp lib="1" loc="(650,610)" name="OR Gate">
       <a name="label" val="U61C"/>
+    </comp>
+    <comp lib="1" loc="(660,540)" name="NOR Gate">
+      <a name="label" val="U43D"/>
     </comp>
     <comp lib="1" loc="(660,680)" name="Buffer"/>
     <wire from="(1100,140)" to="(1130,140)"/>
@@ -730,8 +730,8 @@ end TCL_Generic;
     <wire from="(580,630)" to="(600,630)"/>
     <wire from="(650,370)" to="(700,370)"/>
     <wire from="(650,440)" to="(700,440)"/>
-    <wire from="(650,540)" to="(700,540)"/>
     <wire from="(650,610)" to="(700,610)"/>
+    <wire from="(660,540)" to="(700,540)"/>
     <wire from="(660,680)" to="(700,680)"/>
   </circuit>
 </project>

@@ -468,14 +468,14 @@ end TCL_Generic;
       <a name="trigger" val="low"/>
     </comp>
     <comp lib="5" loc="(210,1020)" name="Hex Digit Display">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@2782de31"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@13baf70a"/>
       <a name="labelvisible" val="true"/>
     </comp>
     <comp lib="5" loc="(2290,1460)" name="Button">
       <a name="label" val="CLEAR"/>
     </comp>
     <comp lib="5" loc="(250,1020)" name="Hex Digit Display">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@50c02170"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@53036ccc"/>
       <a name="labelvisible" val="true"/>
     </comp>
     <comp lib="8" loc="(2267,873)" name="Text">
